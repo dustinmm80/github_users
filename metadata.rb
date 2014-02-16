@@ -3,7 +3,7 @@ maintainer          "Dustin Collins"
 maintainer_email    "dustinrcollins@gmail.com"
 license             "Apache 2.0"
 description         "Creates users from a Github organization or list of users"
-version             "0.1.0"
+version             "0.1.1"
 
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 

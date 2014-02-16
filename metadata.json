@@ -1,0 +1,32 @@
+{
+  "name": "github_users",
+  "description": "Creates users from a Github organization or list of users",
+  "long_description": "# github_users\n\nCreate users from a Github organization or list of users.\n\nThis will allow members of your organization to SSH into servers using their own keys.\n\n## Attributes\n\n* `node[github_users][organization]` - Github organization to search for public members\n* `node[github_users][users]` - List of Github users, if you don't want to use the `organization` attribute\n* `node[github_users][group_name]` - Group name users will belong to (default `'github'`)\n* `node[github_users][group_id]` - Group id users will belong to (default `2157`)\n* `node[github_users][allow_sudo]` - Allow passwordless sudo for the users (default `true`)\n\n## Usage\n\nInclude this cookbook in your role or wrapper cookbook.\n\n```\nrecipe[github_users]\n```\n\nSet one of these attributes as you need:\n\n* `[github_users][organization]`\n* `[github_users][users]`\n\n## Development\n\n1. Clone this repository\n    \n    ```\n    git clone git@github.com:dustinmm80/github_users_cookbook.git\n    ```\n\n2. Install dependencies\n\n    ```\n    gem install bundler; bundle install\n    ```\n    \n3. **Write tests for your changes.** We're using test-kitchen and serverspec.\n\n4. Run the tests\n\n    ```\n    kitchen converge; kitchen verify\n    ```",
+  "maintainer": "Dustin Collins",
+  "maintainer_email": "dustinrcollins@gmail.com",
+  "license": "Apache 2.0",
+  "platforms": {
+    "ubuntu": ">= 0.0.0"
+  },
+  "dependencies": {
+    "ssh_known_hosts": ">= 0.0.0",
+    "sudo": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.1.1"
+}
