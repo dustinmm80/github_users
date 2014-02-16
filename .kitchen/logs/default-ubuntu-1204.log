@@ -1,0 +1,945 @@
+I, [2014-02-16T13:39:48.836131 #44851]  INFO -- default-ubuntu-1204: -----> Creating <default-ubuntu-1204>...
+I, [2014-02-16T13:39:50.823751 #44851]  INFO -- default-ubuntu-1204: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2014-02-16T13:39:50.963870 #44851]  INFO -- default-ubuntu-1204: [default] Box 'opscode-ubuntu-12.04' was not found. Fetching box from specified URL for
+I, [2014-02-16T13:39:50.963952 #44851]  INFO -- default-ubuntu-1204: the provider 'virtualbox'. Note that if the URL does not have
+I, [2014-02-16T13:39:50.963996 #44851]  INFO -- default-ubuntu-1204: a box for this provider, you should interrupt Vagrant now and add
+I, [2014-02-16T13:39:50.964038 #44851]  INFO -- default-ubuntu-1204: the box yourself. Otherwise Vagrant will attempt to download the
+I, [2014-02-16T13:39:50.964079 #44851]  INFO -- default-ubuntu-1204: full box prior to discovering this error.
+I, [2014-02-16T13:39:50.978138 #44851]  INFO -- default-ubuntu-1204: Downloading box from URL: https://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-12.04_chef-provisionerless.box
+Progress: 0% (Rate: 0/s, Estimated time remaining: --:--:--)Progress: 0% (Rate: 17597/s, Estimated time remaining: 15:08:20)Progress: 0% (Rate: 2376k/s, Estimated time remaining: 0:04:17)Progress: 2% (Rate: 4380k/s, Estimated time remaining: 0:02:03)Progress: 3% (Rate: 4766k/s, Estimated time remaining: 0:01:46)Progress: 4% (Rate: 4540k/s, Estimated time remaining: 0:01:48)Progress: 5% (Rate: 5299k/s, Estimated time remaining: 0:01:38)Progress: 7% (Rate: 5783k/s, Estimated time remaining: 0:01:32)Progress: 8% (Rate: 5438k/s, Estimated time remaining: 0:01:28)Progress: 9% (Rate: 5005k/s, Estimated time remaining: 0:01:30)Progress: 10% (Rate: 5301k/s, Estimated time remaining: 0:01:28)Progress: 11% (Rate: 5162k/s, Estimated time remaining: 0:01:26)Progress: 12% (Rate: 5062k/s, Estimated time remaining: 0:01:23)Progress: 14% (Rate: 5312k/s, Estimated time remaining: 0:01:19)Progress: 15% (Rate: 6173k/s, Estimated time remaining: 0:01:15)Progress: 17% (Rate: 6615k/s, Estimated time remaining: 0:01:10)Progress: 17% (Rate: 5997k/s, Estimated time remaining: 0:01:13)Progress: 18% (Rate: 5570k/s, Estimated time remaining: 0:01:14)Progress: 19% (Rate: 4965k/s, Estimated time remaining: 0:01:14)Progress: 20% (Rate: 4283k/s, Estimated time remaining: 0:01:14)Progress: 21% (Rate: 3698k/s, Estimated time remaining: 0:01:13)Progress: 22% (Rate: 4371k/s, Estimated time remaining: 0:01:11)Progress: 23% (Rate: 4291k/s, Estimated time remaining: 0:01:12)Progress: 24% (Rate: 4375k/s, Estimated time remaining: 0:01:12)Progress: 25% (Rate: 4275k/s, Estimated time remaining: 0:01:12)Progress: 25% (Rate: 4076k/s, Estimated time remaining: 0:01:12)Progress: 26% (Rate: 3834k/s, Estimated time remaining: 0:01:11)Progress: 27% (Rate: 4171k/s, Estimated time remaining: 0:01:10)Progress: 29% (Rate: 4292k/s, Estimated time remaining: 0:01:09)Progress: 30% (Rate: 4848k/s, Estimated time remaining: 0:01:07)Progress: 32% (Rate: 5602k/s, Estimated time remaining: 0:01:04)Progress: 33% (Rate: 6218k/s, Estimated time remaining: 0:01:01)Progress: 35% (Rate: 6939k/s, Estimated time remaining: 0:00:58)Progress: 36% (Rate: 7143k/s, Estimated time remaining: 0:00:57)Progress: 38% (Rate: 7139k/s, Estimated time remaining: 0:00:55)Progress: 39% (Rate: 6838k/s, Estimated time remaining: 0:00:54)Progress: 40% (Rate: 6632k/s, Estimated time remaining: 0:00:52)Progress: 42% (Rate: 6658k/s, Estimated time remaining: 0:00:50)Progress: 43% (Rate: 6139k/s, Estimated time remaining: 0:00:50)Progress: 44% (Rate: 5985k/s, Estimated time remaining: 0:00:48)Progress: 46% (Rate: 5986k/s, Estimated time remaining: 0:00:47)Progress: 47% (Rate: 5809k/s, Estimated time remaining: 0:00:46)Progress: 48% (Rate: 5467k/s, Estimated time remaining: 0:00:45)Progress: 49% (Rate: 5896k/s, Estimated time remaining: 0:00:43)Progress: 51% (Rate: 5726k/s, Estimated time remaining: 0:00:43)Progress: 52% (Rate: 5670k/s, Estimated time remaining: 0:00:41)Progress: 53% (Rate: 5595k/s, Estimated time remaining: 0:00:41)Progress: 54% (Rate: 5472k/s, Estimated time remaining: 0:00:39)Progress: 55% (Rate: 5093k/s, Estimated time remaining: 0:00:39)Progress: 56% (Rate: 5143k/s, Estimated time remaining: 0:00:38)Progress: 57% (Rate: 5114k/s, Estimated time remaining: 0:00:37)Progress: 59% (Rate: 5099k/s, Estimated time remaining: 0:00:36)Progress: 60% (Rate: 5022k/s, Estimated time remaining: 0:00:35)Progress: 61% (Rate: 5559k/s, Estimated time remaining: 0:00:33)Progress: 63% (Rate: 5991k/s, Estimated time remaining: 0:00:32)Progress: 65% (Rate: 6520k/s, Estimated time remaining: 0:00:30)Progress: 66% (Rate: 7130k/s, Estimated time remaining: 0:00:28)Progress: 68% (Rate: 7583k/s, Estimated time remaining: 0:00:27)Progress: 70% (Rate: 7975k/s, Estimated time remaining: 0:00:25)Progress: 72% (Rate: 8179k/s, Estimated time remaining: 0:00:23)Progress: 73% (Rate: 7470k/s, Estimated time remaining: 0:00:22)Progress: 74% (Rate: 6686k/s, Estimated time remaining: 0:00:22)Progress: 75% (Rate: 6273k/s, Estimated time remaining: 0:00:21)Progress: 76% (Rate: 5701k/s, Estimated time remaining: 0:00:20)Progress: 77% (Rate: 5116k/s, Estimated time remaining: 0:00:19)Progress: 78% (Rate: 4890k/s, Estimated time remaining: 0:00:18)Progress: 79% (Rate: 5065k/s, Estimated time remaining: 0:00:17)Progress: 80% (Rate: 5045k/s, Estimated time remaining: 0:00:16)Progress: 82% (Rate: 5173k/s, Estimated time remaining: 0:00:15)Progress: 83% (Rate: 5245k/s, Estimated time remaining: 0:00:14)Progress: 84% (Rate: 4742k/s, Estimated time remaining: 0:00:13)Progress: 84% (Rate: 4369k/s, Estimated time remaining: 0:00:14)Progress: 85% (Rate: 4433k/s, Estimated time remaining: 0:00:12)Progress: 87% (Rate: 4447k/s, Estimated time remaining: 0:00:11)Progress: 88% (Rate: 4668k/s, Estimated time remaining: 0:00:10)Progress: 89% (Rate: 5498k/s, Estimated time remaining: 0:00:09)Progress: 90% (Rate: 5897k/s, Estimated time remaining: 0:00:08)Progress: 92% (Rate: 5998k/s, Estimated time remaining: 0:00:07)Progress: 92% (Rate: 5276k/s, Estimated time remaining: 0:00:06)Progress: 94% (Rate: 4979k/s, Estimated time remaining: 0:00:05)Progress: 95% (Rate: 5073k/s, Estimated time remaining: 0:00:04)Progress: 96% (Rate: 4691k/s, Estimated time remaining: 0:00:04)Progress: 97% (Rate: 4418k/s, Estimated time remaining: 0:00:03)Progress: 97% (Rate: 4688k/s, Estimated time remaining: 0:00:02)Progress: 98% (Rate: 4501k/s, Estimated time remaining: 0:00:01)Progress: 99% (Rate: 4358k/s, Estimated time remaining: --:--:--)I, [2014-02-16T13:41:16.015396 #44851]  INFO -- default-ubuntu-1204: Extracting box...
+I, [2014-02-16T13:41:21.516610 #44851]  INFO -- default-ubuntu-1204: Successfully added box 'opscode-ubuntu-12.04' with provider 'virtualbox'!
+I, [2014-02-16T13:41:24.013366 #44851]  INFO -- default-ubuntu-1204: [default] Importing base box 'opscode-ubuntu-12.04'...
+Progress: 10%Progress: 30%Progress: 40%Progress: 50%Progress: 60%Progress: 70%Progress: 80%Progress: 90%I, [2014-02-16T13:41:32.134185 #44851]  INFO -- default-ubuntu-1204: [default] Matching MAC address for NAT networking...
+I, [2014-02-16T13:41:32.793306 #44851]  INFO -- default-ubuntu-1204: [default] Setting the name of the VM...
+I, [2014-02-16T13:41:32.825634 #44851]  INFO -- default-ubuntu-1204: [default] Clearing any previously set forwarded ports...
+I, [2014-02-16T13:41:32.886153 #44851]  INFO -- default-ubuntu-1204: [Berkshelf] Skipping Berkshelf with --no-provision
+I, [2014-02-16T13:41:33.046608 #44851]  INFO -- default-ubuntu-1204: [default] Clearing any previously set network interfaces...
+I, [2014-02-16T13:41:33.079886 #44851]  INFO -- default-ubuntu-1204: [default] Preparing network interfaces based on configuration...
+I, [2014-02-16T13:41:33.113991 #44851]  INFO -- default-ubuntu-1204: [default] Forwarding ports...
+I, [2014-02-16T13:41:33.171524 #44851]  INFO -- default-ubuntu-1204: [default] -- 22 => 2222 (adapter 1)
+I, [2014-02-16T13:41:35.439906 #44851]  INFO -- default-ubuntu-1204: [default] Running 'pre-boot' VM customizations...
+I, [2014-02-16T13:41:35.471157 #44851]  INFO -- default-ubuntu-1204: [default] Booting VM...
+[default] Waiting for machine to boot. This may take a few minutes...I, [2014-02-16T13:41:51.722637 #44851]  INFO -- default-ubuntu-1204: [default] Machine booted and ready!
+I, [2014-02-16T13:41:52.496427 #44851]  INFO -- default-ubuntu-1204: GuestAdditions versions on your host (4.3.6) and guest (4.3.2) do not match.
+I, [2014-02-16T13:41:55.100917 #44851]  INFO -- default-ubuntu-1204: stdin: is not a tty
+Reading package lists...Building dependency tree...Reading state information...I, [2014-02-16T13:41:57.635688 #44851]  INFO -- default-ubuntu-1204: dkms is already the newest version.
+I, [2014-02-16T13:41:57.635762 #44851]  INFO -- default-ubuntu-1204: linux-headers-3.8.0-29-generic is already the newest version.
+I, [2014-02-16T13:41:57.635795 #44851]  INFO -- default-ubuntu-1204: 0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+I, [2014-02-16T13:41:57.667585 #44851]  INFO -- default-ubuntu-1204: Copy iso file /Applications/VirtualBox.app/Contents/MacOS/VBoxGuestAdditions.iso into the box /tmp/VBoxGuestAdditions.iso
+I, [2014-02-16T13:42:03.193508 #44851]  INFO -- default-ubuntu-1204: stdin: is not a tty
+I, [2014-02-16T13:42:03.225579 #44851]  INFO -- default-ubuntu-1204: mount: warning: /mnt seems to be mounted read-only.
+I, [2014-02-16T13:42:03.351195 #44851]  INFO -- default-ubuntu-1204: Installing Virtualbox Guest Additions 4.3.6 - guest version is 4.3.2
+I, [2014-02-16T13:42:03.468749 #44851]  INFO -- default-ubuntu-1204: stdin: is not a tty
+Verifying archive integrity...I, [2014-02-16T13:42:03.534394 #44851]  INFO -- default-ubuntu-1204:  All good.
+Uncompressing VirtualBox 4.3.6 Guest Additions for Linux............I, [2014-02-16T13:42:03.635006 #44851]  INFO -- default-ubuntu-1204: VirtualBox Guest Additions installer
+I, [2014-02-16T13:42:03.644023 #44851]  INFO -- default-ubuntu-1204: Removing installed version 4.3.2 of VirtualBox Guest Additions...
+I, [2014-02-16T13:42:08.240273 #44851]  INFO -- default-ubuntu-1204: Copying additional installer modules ...
+I, [2014-02-16T13:42:09.705750 #44851]  INFO -- default-ubuntu-1204: Installing additional modules ...
+Removing existing VirtualBox DKMS kernel modulesI, [2014-02-16T13:42:09.854509 #44851]  INFO -- default-ubuntu-1204:  ...done.
+Removing existing VirtualBox non-DKMS kernel modulesI, [2014-02-16T13:42:09.916150 #44851]  INFO -- default-ubuntu-1204:  ...done.
+Building the VirtualBox Guest Additions kernel modulesI, [2014-02-16T13:42:40.306249 #44851]  INFO -- default-ubuntu-1204:  ...done.
+Doing non-kernel setup of the Guest AdditionsI, [2014-02-16T13:42:40.344022 #44851]  INFO -- default-ubuntu-1204:  ...done.
+I, [2014-02-16T13:42:40.347370 #44851]  INFO -- default-ubuntu-1204: You should restart your guest to make sure the new modules are actually used
+Installing the Window System driversI, [2014-02-16T13:42:40.480491 #44851]  INFO -- default-ubuntu-1204:  ...fail!
+I, [2014-02-16T13:42:40.480901 #44851]  INFO -- default-ubuntu-1204: (Could not find the X.Org or XFree86 Window System.)
+I, [2014-02-16T13:42:40.635042 #44851]  INFO -- default-ubuntu-1204: An error occurred during installation of VirtualBox Guest Additions 4.3.6. Some functionality may not work as intended.
+I, [2014-02-16T13:42:40.635114 #44851]  INFO -- default-ubuntu-1204: In most cases it is OK that the "Window System drivers" installation failed.
+I, [2014-02-16T13:42:40.757145 #44851]  INFO -- default-ubuntu-1204: stdin: is not a tty
+I, [2014-02-16T13:42:41.504038 #44851]  INFO -- default-ubuntu-1204: [default] Setting hostname...
+I, [2014-02-16T13:42:44.760928 #44851]  INFO -- default-ubuntu-1204: [default] Checking for host entries
+I, [2014-02-16T13:42:47.043697 #44851]  INFO -- default-ubuntu-1204: Vagrant instance <default-ubuntu-1204> created.
+I, [2014-02-16T13:42:47.049342 #44851]  INFO -- default-ubuntu-1204: Finished creating <default-ubuntu-1204> (2m58.21s).
+I, [2014-02-16T13:42:47.049528 #44851]  INFO -- default-ubuntu-1204: -----> Converging <default-ubuntu-1204>...
+I, [2014-02-16T13:42:47.050382 #44851]  INFO -- default-ubuntu-1204: Preparing files for transfer
+I, [2014-02-16T13:42:47.064337 #44851]  INFO -- default-ubuntu-1204: Resolving cookbook dependencies with Berkshelf 2.0.14...
+I, [2014-02-16T13:42:48.289799 #44851]  INFO -- default-ubuntu-1204: Removing non-cookbook files before transfer
+I, [2014-02-16T13:42:48.335111 #44851]  INFO -- default-ubuntu-1204: -----> Installing Chef Omnibus (11.10.0)
+I, [2014-02-16T13:42:48.335229 #44851]  INFO -- default-ubuntu-1204: downloading https://www.getchef.com/chef/install.sh
+I, [2014-02-16T13:42:48.335284 #44851]  INFO -- default-ubuntu-1204:   to file /tmp/install.sh
+I, [2014-02-16T13:42:48.335321 #44851]  INFO -- default-ubuntu-1204: trying wget...
+Downloading Chef 11.10.0 for ubuntu...I, [2014-02-16T13:42:48.813992 #44851]  INFO -- default-ubuntu-1204: 
+downloading https://www.getchef.com/chef/metadata?v=11.10.0&prerelease=false&p=ubuntu&pv=12.04&m=x86_64I, [2014-02-16T13:42:48.814788 #44851]  INFO -- default-ubuntu-1204: 
+  to file /tmp/install.sh.4248/metadata.txtI, [2014-02-16T13:42:48.815052 #44851]  INFO -- default-ubuntu-1204: 
+trying wget...I, [2014-02-16T13:42:48.815420 #44851]  INFO -- default-ubuntu-1204: 
+url	https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/12.04/x86_64/chef_11.10.0-1.ubuntu.12.04_amd64.debI, [2014-02-16T13:42:49.354551 #44851]  INFO -- default-ubuntu-1204: 
+md5	21524287ed5631eb1c092ba7b589e968I, [2014-02-16T13:42:49.355057 #44851]  INFO -- default-ubuntu-1204: 
+sha256	7a0a898b3682462620de80230c7a73730dde7131ca069e1d926f6faf07e4fa2fI, [2014-02-16T13:42:49.355936 #44851]  INFO -- default-ubuntu-1204: 
+downloaded metadata file looks valid...I, [2014-02-16T13:42:49.358667 #44851]  INFO -- default-ubuntu-1204: 
+downloading https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/12.04/x86_64/chef_11.10.0-1.ubuntu.12.04_amd64.debI, [2014-02-16T13:42:49.362772 #44851]  INFO -- default-ubuntu-1204: 
+  to file /tmp/install.sh.4248/chef_11.10.0-1.ubuntu.12.04_amd64.debI, [2014-02-16T13:42:49.363163 #44851]  INFO -- default-ubuntu-1204: 
+trying wget...I, [2014-02-16T13:42:49.363468 #44851]  INFO -- default-ubuntu-1204: 
+Checksum compare with sha256sum succeeded.I, [2014-02-16T13:42:53.580345 #44851]  INFO -- default-ubuntu-1204: 
+Installing Chef 11.10.0I, [2014-02-16T13:42:53.581148 #44851]  INFO -- default-ubuntu-1204: 
+installing with dpkg...I, [2014-02-16T13:42:53.581428 #44851]  INFO -- default-ubuntu-1204: 
+Selecting previously unselected package chef.I, [2014-02-16T13:42:53.631611 #44851]  INFO -- default-ubuntu-1204: 
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 54659 files and directories currently installed.)I, [2014-02-16T13:42:53.735226 #44851]  INFO -- default-ubuntu-1204: 
+Unpacking chef (from .../chef_11.10.0-1.ubuntu.12.04_amd64.deb) ...I, [2014-02-16T13:42:53.737220 #44851]  INFO -- default-ubuntu-1204: 
+Setting up chef (11.10.0-1.ubuntu.12.04) ...I, [2014-02-16T13:42:57.396394 #44851]  INFO -- default-ubuntu-1204: 
+Thank you for installing Chef!I, [2014-02-16T13:42:57.419750 #44851]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:42:57.450715 #44851]  INFO -- default-ubuntu-1204: Transfering files to <default-ubuntu-1204>
+[2014-02-16T18:42:58+00:00] INFO: Forking chef instance to converge...I, [2014-02-16T13:42:58.684424 #44851]  INFO -- default-ubuntu-1204: 
+Starting Chef Client, version 11.10.0[0mI, [2014-02-16T13:42:58.735015 #44851]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:42:58+00:00] INFO: *** Chef 11.10.0 ***I, [2014-02-16T13:42:58.735324 #44851]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:42:58+00:00] INFO: Chef-client pid: 4330I, [2014-02-16T13:42:58.735942 #44851]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:42:58+00:00] INFO: Setting the run_list to ["github_users::default"] from JSONI, [2014-02-16T13:42:59.108986 #44851]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:42:58+00:00] INFO: Run List is [recipe[github_users::default]]I, [2014-02-16T13:42:59.112356 #44851]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:42:58+00:00] INFO: Run List expands to [github_users::default]I, [2014-02-16T13:42:59.112748 #44851]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:42:58+00:00] INFO: Starting Chef Run for default-ubuntu-1204I, [2014-02-16T13:42:59.113108 #44851]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:42:58+00:00] INFO: Running start handlersI, [2014-02-16T13:42:59.113437 #44851]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:42:58+00:00] INFO: Start handlers complete.I, [2014-02-16T13:42:59.113723 #44851]  INFO -- default-ubuntu-1204: 
+Compiling Cookbooks...[0mI, [2014-02-16T13:42:59.116459 #44851]  INFO -- default-ubuntu-1204: 
+Converging 1 resources[0mI, [2014-02-16T13:42:59.121379 #44851]  INFO -- default-ubuntu-1204: 
+Recipe: github_users::default[0mI, [2014-02-16T13:42:59.121781 #44851]  INFO -- default-ubuntu-1204: 
+  * group[github] action create[0m[2014-02-16T18:42:58+00:00] INFO: Processing group[github] action create (github_users::default line 14)I, [2014-02-16T13:42:59.122301 #44851]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:42:58+00:00] INFO: group[github] createdI, [2014-02-16T13:42:59.168354 #44851]  INFO -- default-ubuntu-1204: 
+[32mI, [2014-02-16T13:42:59.168871 #44851]  INFO -- default-ubuntu-1204: 
+    - create group[github][0mI, [2014-02-16T13:42:59.169294 #44851]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:42:59.169678 #44851]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:42:58+00:00] INFO: Chef Run complete in 0.057945905 secondsI, [2014-02-16T13:42:59.170130 #44851]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:42:59.170343 #44851]  INFO -- default-ubuntu-1204: 
+Running handlers:[0mI, [2014-02-16T13:42:59.170733 #44851]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:42:58+00:00] INFO: Running report handlersI, [2014-02-16T13:42:59.171103 #44851]  INFO -- default-ubuntu-1204: 
+Running handlers completeI, [2014-02-16T13:42:59.171523 #44851]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:42:59.171937 #44851]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:42:58+00:00] INFO: Report handlers completeI, [2014-02-16T13:42:59.172305 #44851]  INFO -- default-ubuntu-1204: 
+Chef Client finished, 1/1 resources updated in 0.488440961 seconds[0mI, [2014-02-16T13:42:59.172620 #44851]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:42:59.242093 #44851]  INFO -- default-ubuntu-1204: Finished converging <default-ubuntu-1204> (0m12.19s).
+I, [2014-02-16T13:43:06.646392 #45050]  INFO -- default-ubuntu-1204: -----> Converging <default-ubuntu-1204>...
+I, [2014-02-16T13:43:06.648214 #45050]  INFO -- default-ubuntu-1204: Preparing files for transfer
+I, [2014-02-16T13:43:06.657165 #45050]  INFO -- default-ubuntu-1204: Resolving cookbook dependencies with Berkshelf 2.0.14...
+I, [2014-02-16T13:43:07.324565 #45050]  INFO -- default-ubuntu-1204: Removing non-cookbook files before transfer
+I, [2014-02-16T13:43:08.142899 #45050]  INFO -- default-ubuntu-1204: Transfering files to <default-ubuntu-1204>
+[2014-02-16T18:43:08+00:00] INFO: Forking chef instance to converge...I, [2014-02-16T13:43:08.932050 #45050]  INFO -- default-ubuntu-1204: 
+Starting Chef Client, version 11.10.0[0mI, [2014-02-16T13:43:08.976895 #45050]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:43:08+00:00] INFO: *** Chef 11.10.0 ***I, [2014-02-16T13:43:08.977517 #45050]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:43:08+00:00] INFO: Chef-client pid: 4505I, [2014-02-16T13:43:08.977996 #45050]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:43:09+00:00] INFO: Setting the run_list to ["github_users::default"] from JSONI, [2014-02-16T13:43:09.228051 #45050]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:43:09+00:00] INFO: Run List is [recipe[github_users::default]]I, [2014-02-16T13:43:09.231416 #45050]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:43:09+00:00] INFO: Run List expands to [github_users::default]I, [2014-02-16T13:43:09.231687 #45050]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:43:09+00:00] INFO: Starting Chef Run for default-ubuntu-1204I, [2014-02-16T13:43:09.231927 #45050]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:43:09+00:00] INFO: Running start handlersI, [2014-02-16T13:43:09.232209 #45050]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:43:09+00:00] INFO: Start handlers complete.I, [2014-02-16T13:43:09.232560 #45050]  INFO -- default-ubuntu-1204: 
+Compiling Cookbooks...[0mI, [2014-02-16T13:43:09.235509 #45050]  INFO -- default-ubuntu-1204: 
+Converging 1 resources[0mI, [2014-02-16T13:43:09.240298 #45050]  INFO -- default-ubuntu-1204: 
+Recipe: github_users::default[0mI, [2014-02-16T13:43:09.240589 #45050]  INFO -- default-ubuntu-1204: 
+  * group[github] action create[0m[2014-02-16T18:43:09+00:00] INFO: Processing group[github] action create (github_users::default line 14)I, [2014-02-16T13:43:09.241333 #45050]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T13:43:09.242295 #45050]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:43:09+00:00] INFO: Chef Run complete in 0.01027178 secondsI, [2014-02-16T13:43:09.242667 #45050]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:43:09.242866 #45050]  INFO -- default-ubuntu-1204: 
+Running handlers:[0mI, [2014-02-16T13:43:09.243176 #45050]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:43:09+00:00] INFO: Running report handlersI, [2014-02-16T13:43:09.243494 #45050]  INFO -- default-ubuntu-1204: 
+Running handlers completeI, [2014-02-16T13:43:09.243857 #45050]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:43:09.244158 #45050]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:43:09+00:00] INFO: Report handlers completeI, [2014-02-16T13:43:09.245347 #45050]  INFO -- default-ubuntu-1204: 
+Chef Client finished, 0/1 resources updated in 0.313957548 seconds[0mI, [2014-02-16T13:43:09.245649 #45050]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:43:09.309980 #45050]  INFO -- default-ubuntu-1204: Finished converging <default-ubuntu-1204> (0m2.66s).
+I, [2014-02-16T13:45:01.303978 #45101]  INFO -- default-ubuntu-1204: -----> Converging <default-ubuntu-1204>...
+I, [2014-02-16T13:45:01.305668 #45101]  INFO -- default-ubuntu-1204: Preparing files for transfer
+I, [2014-02-16T13:45:01.314389 #45101]  INFO -- default-ubuntu-1204: Resolving cookbook dependencies with Berkshelf 2.0.14...
+I, [2014-02-16T13:45:01.980286 #45101]  INFO -- default-ubuntu-1204: Removing non-cookbook files before transfer
+I, [2014-02-16T13:45:02.766508 #45101]  INFO -- default-ubuntu-1204: Transfering files to <default-ubuntu-1204>
+[2014-02-16T18:45:03+00:00] INFO: Forking chef instance to converge...I, [2014-02-16T13:45:03.567491 #45101]  INFO -- default-ubuntu-1204: 
+Starting Chef Client, version 11.10.0[0mI, [2014-02-16T13:45:03.611143 #45101]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:03+00:00] INFO: *** Chef 11.10.0 ***I, [2014-02-16T13:45:03.611534 #45101]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:03+00:00] INFO: Chef-client pid: 4666I, [2014-02-16T13:45:03.611831 #45101]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:03+00:00] INFO: Setting the run_list to ["github_users::default"] from JSONI, [2014-02-16T13:45:03.850327 #45101]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:03+00:00] INFO: Run List is [recipe[github_users::default]]I, [2014-02-16T13:45:03.853817 #45101]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:03+00:00] INFO: Run List expands to [github_users::default]I, [2014-02-16T13:45:03.854113 #45101]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:03+00:00] INFO: Starting Chef Run for default-ubuntu-1204I, [2014-02-16T13:45:03.854367 #45101]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:03+00:00] INFO: Running start handlersI, [2014-02-16T13:45:03.854663 #45101]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:03+00:00] INFO: Start handlers complete.I, [2014-02-16T13:45:03.854946 #45101]  INFO -- default-ubuntu-1204: 
+Compiling Cookbooks...[0mI, [2014-02-16T13:45:03.857929 #45101]  INFO -- default-ubuntu-1204: 
+Converging 3 resources[0mI, [2014-02-16T13:45:03.862925 #45101]  INFO -- default-ubuntu-1204: 
+Recipe: github_users::default[0mI, [2014-02-16T13:45:03.863244 #45101]  INFO -- default-ubuntu-1204: 
+  * log[Creating group github] action write[0m[2014-02-16T18:45:03+00:00] INFO: Processing log[Creating group github] action write (github_users::default line 14)I, [2014-02-16T13:45:03.863869 #45101]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:03+00:00] INFO: Creating group githubI, [2014-02-16T13:45:03.864573 #45101]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:45:03.864821 #45101]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:45:03.865125 #45101]  INFO -- default-ubuntu-1204: 
+  * group[github] action create[0m[2014-02-16T18:45:03+00:00] INFO: Processing group[github] action create (github_users::default line 16)I, [2014-02-16T13:45:03.865584 #45101]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T13:45:03.866207 #45101]  INFO -- default-ubuntu-1204: 
+  * log[Creating users []] action write[0m[2014-02-16T18:45:03+00:00] INFO: Processing log[Creating users []] action write (github_users::default line 21)I, [2014-02-16T13:45:03.866818 #45101]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:03+00:00] INFO: Creating users []I, [2014-02-16T13:45:03.867156 #45101]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:45:03.867292 #45101]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:45:03.867625 #45101]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:03+00:00] INFO: Chef Run complete in 0.013605061 secondsI, [2014-02-16T13:45:03.867977 #45101]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:45:03.868205 #45101]  INFO -- default-ubuntu-1204: 
+Running handlers:[0mI, [2014-02-16T13:45:03.868563 #45101]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:03+00:00] INFO: Running report handlersI, [2014-02-16T13:45:03.868900 #45101]  INFO -- default-ubuntu-1204: 
+Running handlers completeI, [2014-02-16T13:45:03.869264 #45101]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:45:03.869591 #45101]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:03+00:00] INFO: Report handlers completeI, [2014-02-16T13:45:03.869908 #45101]  INFO -- default-ubuntu-1204: 
+Chef Client finished, 2/3 resources updated in 0.302797298 seconds[0mI, [2014-02-16T13:45:03.870170 #45101]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:45:03.930876 #45101]  INFO -- default-ubuntu-1204: Finished converging <default-ubuntu-1204> (0m2.62s).
+I, [2014-02-16T13:45:31.896018 #45136]  INFO -- default-ubuntu-1204: -----> Converging <default-ubuntu-1204>...
+I, [2014-02-16T13:45:31.897673 #45136]  INFO -- default-ubuntu-1204: Preparing files for transfer
+I, [2014-02-16T13:45:31.906375 #45136]  INFO -- default-ubuntu-1204: Resolving cookbook dependencies with Berkshelf 2.0.14...
+I, [2014-02-16T13:45:32.568506 #45136]  INFO -- default-ubuntu-1204: Removing non-cookbook files before transfer
+I, [2014-02-16T13:45:33.371837 #45136]  INFO -- default-ubuntu-1204: Transfering files to <default-ubuntu-1204>
+[2014-02-16T18:45:34+00:00] INFO: Forking chef instance to converge...I, [2014-02-16T13:45:34.173383 #45136]  INFO -- default-ubuntu-1204: 
+Starting Chef Client, version 11.10.0[0mI, [2014-02-16T13:45:34.217140 #45136]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:34+00:00] INFO: *** Chef 11.10.0 ***I, [2014-02-16T13:45:34.217422 #45136]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:34+00:00] INFO: Chef-client pid: 4827I, [2014-02-16T13:45:34.217615 #45136]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:34+00:00] INFO: Setting the run_list to ["github_users::default"] from JSONI, [2014-02-16T13:45:34.455244 #45136]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:34+00:00] INFO: Run List is [recipe[github_users::default]]I, [2014-02-16T13:45:34.458499 #45136]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:34+00:00] INFO: Run List expands to [github_users::default]I, [2014-02-16T13:45:34.458898 #45136]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:34+00:00] INFO: Starting Chef Run for default-ubuntu-1204I, [2014-02-16T13:45:34.459244 #45136]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:34+00:00] INFO: Running start handlersI, [2014-02-16T13:45:34.459600 #45136]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:34+00:00] INFO: Start handlers complete.I, [2014-02-16T13:45:34.459910 #45136]  INFO -- default-ubuntu-1204: 
+Compiling Cookbooks...[0mI, [2014-02-16T13:45:34.462802 #45136]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:45:34.945168 #45136]  INFO -- default-ubuntu-1204: 
+================================================================================[0mI, [2014-02-16T13:45:34.945486 #45136]  INFO -- default-ubuntu-1204: 
+[31mRecipe Compile Error in /tmp/kitchen/cookbooks/github_users/recipes/default.rb[0mI, [2014-02-16T13:45:34.945808 #45136]  INFO -- default-ubuntu-1204: 
+================================================================================[0mI, [2014-02-16T13:45:34.946068 #45136]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:45:34.946246 #45136]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:45:34.946502 #45136]  INFO -- default-ubuntu-1204: 
+TypeError[0mI, [2014-02-16T13:45:34.946743 #45136]  INFO -- default-ubuntu-1204: 
+---------[0mI, [2014-02-16T13:45:34.947165 #45136]  INFO -- default-ubuntu-1204: 
+can't convert String into Integer[0mI, [2014-02-16T13:45:34.947530 #45136]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:45:34.947744 #45136]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:45:34.948144 #45136]  INFO -- default-ubuntu-1204: 
+Cookbook Trace:[0mI, [2014-02-16T13:45:34.948537 #45136]  INFO -- default-ubuntu-1204: 
+---------------[0mI, [2014-02-16T13:45:34.948943 #45136]  INFO -- default-ubuntu-1204: 
+  /tmp/kitchen/cookbooks/github_users/recipes/default.rb:49:in `[]'I, [2014-02-16T13:45:34.949341 #45136]  INFO -- default-ubuntu-1204: 
+  /tmp/kitchen/cookbooks/github_users/recipes/default.rb:49:in `block in from_file'I, [2014-02-16T13:45:34.949712 #45136]  INFO -- default-ubuntu-1204: 
+  /tmp/kitchen/cookbooks/github_users/recipes/default.rb:23:in `each'I, [2014-02-16T13:45:34.950120 #45136]  INFO -- default-ubuntu-1204: 
+  /tmp/kitchen/cookbooks/github_users/recipes/default.rb:23:in `from_file'[0mI, [2014-02-16T13:45:34.950532 #45136]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:45:34.950745 #45136]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:45:34.951055 #45136]  INFO -- default-ubuntu-1204: 
+Relevant File Content:[0mI, [2014-02-16T13:45:34.951373 #45136]  INFO -- default-ubuntu-1204: 
+----------------------[0mI, [2014-02-16T13:45:34.951701 #45136]  INFO -- default-ubuntu-1204: 
+/tmp/kitchen/cookbooks/github_users/recipes/default.rb:I, [2014-02-16T13:45:34.952034 #45136]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:45:34.952196 #45136]  INFO -- default-ubuntu-1204: 
+ 42:          group node['github_users']['group_name']I, [2014-02-16T13:45:34.952526 #45136]  INFO -- default-ubuntu-1204: 
+ 43:          mode "0600"I, [2014-02-16T13:45:34.952848 #45136]  INFO -- default-ubuntu-1204: 
+ 44:          variables(I, [2014-02-16T13:45:34.953114 #45136]  INFO -- default-ubuntu-1204: 
+ 45:              :public_keys => public_keysI, [2014-02-16T13:45:34.953390 #45136]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:45:34.953423 #45136]  INFO -- default-ubuntu-1204:  46:          )
+I, [2014-02-16T13:45:34.953452 #45136]  INFO -- default-ubuntu-1204:  47:      end
+I, [2014-02-16T13:45:34.953480 #45136]  INFO -- default-ubuntu-1204:  48:  
+I, [2014-02-16T13:45:34.953511 #45136]  INFO -- default-ubuntu-1204:  49>>     if ['github_users']['allow_sudo']
+I, [2014-02-16T13:45:34.953535 #45136]  INFO -- default-ubuntu-1204:  50:  
+I, [2014-02-16T13:45:34.953565 #45136]  INFO -- default-ubuntu-1204:  51:      end
+I, [2014-02-16T13:45:34.953635 #45136]  INFO -- default-ubuntu-1204:  52:  end 53:  [0m
+I, [2014-02-16T13:45:34.953686 #45136]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:45:34.953713 #45136]  INFO -- default-ubuntu-1204: [0m
+I, [2014-02-16T13:45:34.953736 #45136]  INFO -- default-ubuntu-1204: 
+Running handlers:[0mI, [2014-02-16T13:45:34.954314 #45136]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:45:34.954347 #45136]  INFO -- default-ubuntu-1204: [2014-02-16T18:45:34+00:00] ERROR: Running exception handlers
+I, [2014-02-16T13:45:34.954536 #45136]  INFO -- default-ubuntu-1204: 
+Running handlers completeI, [2014-02-16T13:45:34.954858 #45136]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:45:34.955153 #45136]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:34+00:00] ERROR: Exception handlers completeI, [2014-02-16T13:45:34.955485 #45136]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:34+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.outI, [2014-02-16T13:45:34.955785 #45136]  INFO -- default-ubuntu-1204: 
+Chef Client failed. 0 resources updated in 0.783463971 seconds[0mI, [2014-02-16T13:45:34.956055 #45136]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:34+00:00] ERROR: can't convert String into IntegerI, [2014-02-16T13:45:34.969193 #45136]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:45:34+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)I, [2014-02-16T13:45:34.998134 #45136]  INFO -- default-ubuntu-1204: 
+E, [2014-02-16T13:45:35.020775 #45136] ERROR -- default-ubuntu-1204: Converge failed on instance <default-ubuntu-1204>.
+E, [2014-02-16T13:45:35.020868 #45136] ERROR -- default-ubuntu-1204: ------Exception-------
+E, [2014-02-16T13:45:35.020899 #45136] ERROR -- default-ubuntu-1204: Class: Kitchen::ActionFailed
+E, [2014-02-16T13:45:35.020923 #45136] ERROR -- default-ubuntu-1204: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2014-02-16T13:45:35.020962 #45136] ERROR -- default-ubuntu-1204: ---Nested Exception---
+E, [2014-02-16T13:45:35.020984 #45136] ERROR -- default-ubuntu-1204: Class: Kitchen::SSHFailed
+E, [2014-02-16T13:45:35.021006 #45136] ERROR -- default-ubuntu-1204: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2014-02-16T13:45:35.021045 #45136] ERROR -- default-ubuntu-1204: ------Backtrace-------
+E, [2014-02-16T13:45:35.021074 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:112:in `rescue in run_remote'
+E, [2014-02-16T13:45:35.021103 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:108:in `run_remote'
+E, [2014-02-16T13:45:35.021132 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:48:in `block in converge'
+E, [2014-02-16T13:45:35.021161 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2014-02-16T13:45:35.021190 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2014-02-16T13:45:35.021232 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2014-02-16T13:45:35.021262 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/kitchen-vagrant-0.14.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2014-02-16T13:45:35.021291 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-02-16T13:45:35.021331 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-02-16T13:45:35.021363 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2014-02-16T13:45:35.021392 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-02-16T13:45:35.021421 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-02-16T13:45:35.021451 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2014-02-16T13:45:35.021480 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-02-16T13:45:35.021509 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-02-16T13:45:35.021572 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2014-02-16T13:45:35.021602 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-02-16T13:45:35.021631 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-02-16T13:45:35.021659 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-02-16T13:45:35.021688 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:119:in `converge'
+E, [2014-02-16T13:45:35.021717 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-02-16T13:45:35.021746 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-02-16T13:45:35.021775 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `call'
+E, [2014-02-16T13:45:35.021804 #45136] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `block in create_with_logging_context'
+E, [2014-02-16T13:45:35.021833 #45136] ERROR -- default-ubuntu-1204: ----------------------
+I, [2014-02-16T13:46:15.047659 #45167]  INFO -- default-ubuntu-1204: -----> Converging <default-ubuntu-1204>...
+I, [2014-02-16T13:46:15.049501 #45167]  INFO -- default-ubuntu-1204: Preparing files for transfer
+I, [2014-02-16T13:46:15.058343 #45167]  INFO -- default-ubuntu-1204: Resolving cookbook dependencies with Berkshelf 2.0.14...
+I, [2014-02-16T13:46:15.739064 #45167]  INFO -- default-ubuntu-1204: Removing non-cookbook files before transfer
+I, [2014-02-16T13:46:16.539127 #45167]  INFO -- default-ubuntu-1204: Transfering files to <default-ubuntu-1204>
+[2014-02-16T18:46:17+00:00] INFO: Forking chef instance to converge...I, [2014-02-16T13:46:17.349458 #45167]  INFO -- default-ubuntu-1204: 
+Starting Chef Client, version 11.10.0[0mI, [2014-02-16T13:46:17.390616 #45167]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:17+00:00] INFO: *** Chef 11.10.0 ***I, [2014-02-16T13:46:17.390872 #45167]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:17+00:00] INFO: Chef-client pid: 4988I, [2014-02-16T13:46:17.391084 #45167]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:17+00:00] INFO: Setting the run_list to ["github_users::default"] from JSONI, [2014-02-16T13:46:17.626368 #45167]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:17+00:00] INFO: Run List is [recipe[github_users::default]]I, [2014-02-16T13:46:17.631381 #45167]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:17+00:00] INFO: Run List expands to [github_users::default]I, [2014-02-16T13:46:17.631909 #45167]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:17+00:00] INFO: Starting Chef Run for default-ubuntu-1204I, [2014-02-16T13:46:17.632362 #45167]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:17+00:00] INFO: Running start handlersI, [2014-02-16T13:46:17.632812 #45167]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:17+00:00] INFO: Start handlers complete.I, [2014-02-16T13:46:17.633277 #45167]  INFO -- default-ubuntu-1204: 
+Compiling Cookbooks...[0mI, [2014-02-16T13:46:17.637179 #45167]  INFO -- default-ubuntu-1204: 
+Converging 5 resources[0mI, [2014-02-16T13:46:18.184009 #45167]  INFO -- default-ubuntu-1204: 
+Recipe: github_users::default[0mI, [2014-02-16T13:46:18.184343 #45167]  INFO -- default-ubuntu-1204: 
+  * log[Creating group github] action write[0m[2014-02-16T18:46:18+00:00] INFO: Processing log[Creating group github] action write (github_users::default line 14)I, [2014-02-16T13:46:18.185069 #45167]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:18+00:00] INFO: Creating group githubI, [2014-02-16T13:46:18.186065 #45167]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:18.186308 #45167]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:46:18.186775 #45167]  INFO -- default-ubuntu-1204: 
+  * group[github] action create[0m[2014-02-16T18:46:18+00:00] INFO: Processing group[github] action create (github_users::default line 16)I, [2014-02-16T13:46:18.187391 #45167]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T13:46:18.188276 #45167]  INFO -- default-ubuntu-1204: 
+  * log[Creating users ["dustinmm80"]] action write[0m[2014-02-16T18:46:18+00:00] INFO: Processing log[Creating users ["dustinmm80"]] action write (github_users::default line 21)I, [2014-02-16T13:46:18.189020 #45167]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:18+00:00] INFO: Creating users ["dustinmm80"]I, [2014-02-16T13:46:18.189637 #45167]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:18.189915 #45167]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:46:18.190316 #45167]  INFO -- default-ubuntu-1204: 
+  * user[dustinmm80] action create[0m[2014-02-16T18:46:18+00:00] INFO: Processing user[dustinmm80] action create (github_users::default line 28)I, [2014-02-16T13:46:18.190853 #45167]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:18+00:00] INFO: user[dustinmm80] createdI, [2014-02-16T13:46:18.245006 #45167]  INFO -- default-ubuntu-1204: 
+[32mI, [2014-02-16T13:46:18.245321 #45167]  INFO -- default-ubuntu-1204: 
+    - create user user[dustinmm80][0mI, [2014-02-16T13:46:18.245548 #45167]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:46:18.245768 #45167]  INFO -- default-ubuntu-1204: 
+  * template[/home/dustinmm80/.ssh/authorized_keys] action create[0m[2014-02-16T18:46:18+00:00] INFO: Processing template[/home/dustinmm80/.ssh/authorized_keys] action create (github_users::default line 39)I, [2014-02-16T13:46:18.246432 #45167]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:46:18.249599 #45167]  INFO -- default-ubuntu-1204: 
+================================================================================[0mI, [2014-02-16T13:46:18.249969 #45167]  INFO -- default-ubuntu-1204: 
+[31mError executing action `create` on resource 'template[/home/dustinmm80/.ssh/authorized_keys]'[0mI, [2014-02-16T13:46:18.250289 #45167]  INFO -- default-ubuntu-1204: 
+================================================================================[0mI, [2014-02-16T13:46:18.250655 #45167]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:18.250833 #45167]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:46:18.251122 #45167]  INFO -- default-ubuntu-1204: 
+Chef::Exceptions::FileNotFound[0mI, [2014-02-16T13:46:18.251481 #45167]  INFO -- default-ubuntu-1204: 
+------------------------------[0mI, [2014-02-16T13:46:18.251843 #45167]  INFO -- default-ubuntu-1204: 
+Cookbook 'github_users' (0.1.0) does not contain a file at any of these locations:I, [2014-02-16T13:46:18.252167 #45167]  INFO -- default-ubuntu-1204: 
+  templates/ubuntu-12.04/source.erbI, [2014-02-16T13:46:18.252536 #45167]  INFO -- default-ubuntu-1204: 
+  templates/ubuntu/source.erbI, [2014-02-16T13:46:18.252899 #45167]  INFO -- default-ubuntu-1204: 
+  templates/default/source.erbI, [2014-02-16T13:46:18.253216 #45167]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:18.253400 #45167]  INFO -- default-ubuntu-1204: 
+This cookbook _does_ contain: ['/tmp/kitchen/cookbooks/github_users/templates/default/authorized_keys.erb'][0mI, [2014-02-16T13:46:18.253726 #45167]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:18.253943 #45167]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:46:18.254299 #45167]  INFO -- default-ubuntu-1204: 
+Resource Declaration:[0mI, [2014-02-16T13:46:18.254634 #45167]  INFO -- default-ubuntu-1204: 
+---------------------[0mI, [2014-02-16T13:46:18.254982 #45167]  INFO -- default-ubuntu-1204: 
+# In /tmp/kitchen/cookbooks/github_users/recipes/default.rbI, [2014-02-16T13:46:18.255316 #45167]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:18.255488 #45167]  INFO -- default-ubuntu-1204: 
+ 39:     template "/home/#{username}/.ssh/authorized_keys" doI, [2014-02-16T13:46:18.255835 #45167]  INFO -- default-ubuntu-1204: 
+ 40:         source "source.erb"I, [2014-02-16T13:46:18.256149 #45167]  INFO -- default-ubuntu-1204: 
+ 41:         owner usernameI, [2014-02-16T13:46:18.256500 #45167]  INFO -- default-ubuntu-1204: 
+ 42:         group node['github_users']['group_name']I, [2014-02-16T13:46:18.256823 #45167]  INFO -- default-ubuntu-1204: 
+ 43:         mode "0600"I, [2014-02-16T13:46:18.257112 #45167]  INFO -- default-ubuntu-1204: 
+ 44:         variables(I, [2014-02-16T13:46:18.257397 #45167]  INFO -- default-ubuntu-1204: 
+ 45:             :public_keys => public_keysI, [2014-02-16T13:46:18.257692 #45167]  INFO -- default-ubuntu-1204: 
+ 46:         )I, [2014-02-16T13:46:18.257971 #45167]  INFO -- default-ubuntu-1204: 
+ 47:     endI, [2014-02-16T13:46:18.258227 #45167]  INFO -- default-ubuntu-1204: 
+ 48: I, [2014-02-16T13:46:18.258565 #45167]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:46:18.258906 #45167]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:18.259055 #45167]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:46:18.259319 #45167]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:18.259379 #45167]  INFO -- default-ubuntu-1204: Compiled Resource:[0m
+I, [2014-02-16T13:46:18.259406 #45167]  INFO -- default-ubuntu-1204: ------------------[0m
+I, [2014-02-16T13:46:18.259431 #45167]  INFO -- default-ubuntu-1204: # Declared in /tmp/kitchen/cookbooks/github_users/recipes/default.rb:39:in `block in from_file'
+I, [2014-02-16T13:46:18.259595 #45167]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:18.259648 #45167]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:18.259674 #45167]  INFO -- default-ubuntu-1204: template("/home/dustinmm80/.ssh/authorized_keys") do
+I, [2014-02-16T13:46:18.259699 #45167]  INFO -- default-ubuntu-1204:   provider Chef::Provider::Template
+I, [2014-02-16T13:46:18.259723 #45167]  INFO -- default-ubuntu-1204:   action "create"
+I, [2014-02-16T13:46:18.259748 #45167]  INFO -- default-ubuntu-1204:   retries 0
+I, [2014-02-16T13:46:18.259772 #45167]  INFO -- default-ubuntu-1204:   retry_delay 2
+I, [2014-02-16T13:46:18.259797 #45167]  INFO -- default-ubuntu-1204:   path "/home/dustinmm80/.ssh/authorized_keys"
+I, [2014-02-16T13:46:18.259840 #45167]  INFO -- default-ubuntu-1204:   backup 5
+I, [2014-02-16T13:46:18.259894 #45167]  INFO -- default-ubuntu-1204:   atomic_update true
+I, [2014-02-16T13:46:18.259919 #45167]  INFO -- default-ubuntu-1204:   source "source.erb"
+I, [2014-02-16T13:46:18.259948 #45167]  INFO -- default-ubuntu-1204:   variables {:public_keys=>["ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAxYZYUMF65QEbVygUkr1HBqmKIn58jXgBRPGx05SAwBYgZJpAuMf3OvSMrv+hlHOqjyoLueb/INXYCnqWOQkLvoCyqFn8maMMPrFSQWcv64BCAgrewvWhoELaLnBdyQjYL+QQ/CC0OBDnKwr5l1P2hx5+y4ozY4R0aparajtTE7sGKGsn9H0W6Fb+AH3GIrYpf8Gv5rcd0XN3ifIt3vXaTBQQLRtKUf9bZO2m/s0fTNTPelXhXUC6XwmwGudk+jme0S//UzDCfFMFofahdFdmGIZMyEYlo6W861PzOXG8SRqNEveQuY9j8dvfHqCQsOQFMISazwmrWiDuX9SypG3zfw==", "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA8FvxoUgSWlFRoVoxYCRsl1AXa1At1TV70i9rBgrg5Nt+IqhQu6zWgeFzamqB79aTLosydDVu0xcR5gFi9TEB7oWP9HFJYUe4zBrudbph0l2ehf2lo6/83mvgLEvJwASLbQ+o9D0Pl+N6SPiiAwacXQpG045gPxezIsVR3RPBxfIIXrd8QNJavYWMjNI4cUGPlYtrMxr+WOS2irnzUKNwm4u9CrcUIMjHJpMEpT1nsixSrxFJB64HJG4qqlhErHulU29Pg9AkXdClM1Sa0JE4bvZMpcC2XdKD7Ev4ZNeDJJItJYvY/j5DeuHiH2AcyncJKePCEYf+gWkso5V6hDMjvw==", "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAzoAWkrQv3FnDj+6/081XXmwLprN2HgyXRYcwVAhN1zcUHzfgs4Z/+O2rX3FnDxcWAbCwZSFCp1ktbTBVwzOPUEjioPOadbQmOBDq5Y0cUKonvn+eIFKeKjJC7Tjx1rExWG0fTzCtGr42IV6wtwVcva4zt5jx13HUgxQicxuNGc/nQ2jJiiggY5d4i+xQTfH1SkU8QwS0Tv81v771IU0PSz52bY082Ocoz67qfAZNgwfQGEk6Fyab3RVYqbjXile6Uwl5xG8+1RWBEKxJGD/QUrvOF+VyXHl3iyq1869EkzRY7Qsh+r/5PO+k00rJQbmcms/irM7KqdLn8B/eiO/U5Q==", "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5uX9hrMOfkxZB2IMdjbpQmRuxoQz6sCbLt/nZYWVAwzyB5pQ0t1K9pnF2ocPgBCCXCaoRlRyz+riCv9PcJLs4lrmt9YjRwBybCuRoqhCZ338KAz6ty2VWnDAFh7+WU+RXUm/CDeF7nSrbfzyS15u0n23P0IskR9rI43a8leUeimn8uy6QXZcpyBRYwg/31FO9m03RXNj+07ff5t+888BcB+mT5AnIayjXkUZ9r463hRB04KowSFiOUIr2eUh8/AaWzCq3YXthE/wnTxCoFDohS20EE/gPB+pYz4m700lD2yAvfynq9i9wSMBiDCCCnL3NUlNyIf+rRS1dIKxblInv", "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDd0ib9RLNPYpRzw3W3HV1dSV5R4g+Ozcw3Mb81EhVEUb27kFt4xY6ArPiD7GrwR/VYwpQ7dys/u+C8+vrj1Wma1eDOQLpDBUytFstV8WNdb5Ka9oIwtEtZZA87eQv5yv+voBMH5lH7QbmtVFfz1PKV6fQIunhrAly4AeAjuDeKk0eCCqfHDhcHMtUSkf1kVeI/Jg0FIqBkSKuKfSKtUEWE9P1BnBvf7sO4hqBpS+K/aBsxDyigvbU/ioIVpsWLzIDsHC9yOpyqi5Qnr/PV4fbdbKk4WuhTwq5ClTuDFLPM57Bv/DEqEQL7leldFf0D4FW+ThQMhLg1ig7Txr2PRj3", "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAzZ5HgGmZy6np5RZoCh2/P8gayiF6nEga42pSZFOgHFwEE/L2eBSFf294FL3CUH4RFXwnxS9W0xYzaZIAQi+O7zpKxWbvNB41S1CVEPMTla0Z60oRbTVKxlJmq/oafeOg1UUt39UeotaYwmJwuIDU/sNdpDziZ1qU1hEHap4TnC/QyTGyHI30gYD/XM7F2zcXRGy8n4YOX6cwSPBQx/kpBeWZrMq8tKDA7mRN6tGefEGjcQhshmbiIr9RPar+0ZWzQTQ/LtMj15K5XwHhR/DoR9JwnhYhJ7jrXWt1SV74BK/4BpbmaIfCU6T9BmNv8eSyp4BpzytJDYJg0WASZeGoMw==", "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzMwwPonBgqE9SItF7nGPoAa5JHQrprvD09yH1wSVOSwwsfMErsLzjE6H6LndeAY1ARnJmRv5c5nZKDUiz7z65821Ozttlx6Thqj5tAnqv/4CEJG6lT/kCCXynFMldsRpit2hDwV+IoQrQxjyQDC8VKgZH0VY873wPA8ODGShly5yzE3MbIAWHcEYdKcvtiXCsT+54WQU1IAYPf9pS6TWnmWkn1Cg3EBtkpJ1cLMobmEKk2Q4+uyExvhUKVXL+s6TWKSML250AkGlB/t/s5srUg0dgNmCkyzWzyRtyCwhZD45p3yrpvA5tf/+oDxvoXgNSGDeZCQN0sylX00g13sdN", "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8rjKzMC2dxp+Vl3JUbANG3W1rOYm6qangu4dU1deot2mmzFsoWtv67tmd90scrCua/3Ex60St++rmmOi+Y3eTdYnmzW0/ggi4q27ioW7CSc0emU8/6/UkEk3r77nNnKCsfZeKI6cjiJQuQK7DawkGoQU/HUX5aPfIfoDI6b9jzoMxB9j7JE8g23eBX8Q/g8oPMVMXhMiHmNt0PlHUOtB1Cq1uCWaTtfB5IvxKH+3TT0ODn5b4VrVRe8qx7Z7ugGJ6CqBD6CZyjzFhtUx+WkN1BftlMwz5XkQvLppG86gW5tLUmUVyqM+ekcT4DOQh+ETG/epfGZTgNL4tW2ZNNFOh"]}
+I, [2014-02-16T13:46:18.259978 #45167]  INFO -- default-ubuntu-1204:   cookbook_name :github_users
+I, [2014-02-16T13:46:18.260003 #45167]  INFO -- default-ubuntu-1204:   recipe_name "default"
+I, [2014-02-16T13:46:18.260027 #45167]  INFO -- default-ubuntu-1204:   owner "dustinmm80"
+I, [2014-02-16T13:46:18.260052 #45167]  INFO -- default-ubuntu-1204:   group "github"
+I, [2014-02-16T13:46:18.260103 #45167]  INFO -- default-ubuntu-1204:   mode "0600"
+I, [2014-02-16T13:46:18.260128 #45167]  INFO -- default-ubuntu-1204: end
+I, [2014-02-16T13:46:18.260162 #45167]  INFO -- default-ubuntu-1204: [0m
+I, [2014-02-16T13:46:18.260192 #45167]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:18.260217 #45167]  INFO -- default-ubuntu-1204: [0m
+I, [2014-02-16T13:46:18.260241 #45167]  INFO -- default-ubuntu-1204: [2014-02-16T18:46:18+00:00] INFO: Running queued delayed notifications before re-raising exception
+I, [2014-02-16T13:46:18.261237 #45167]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:18.261280 #45167]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:18.261407 #45167]  INFO -- default-ubuntu-1204: Running handlers:[0m
+I, [2014-02-16T13:46:18.261438 #45167]  INFO -- default-ubuntu-1204: [2014-02-16T18:46:18+00:00] ERROR: Running exception handlers
+I, [2014-02-16T13:46:18.261603 #45167]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:18.261633 #45167]  INFO -- default-ubuntu-1204: Running handlers complete
+I, [2014-02-16T13:46:18.261661 #45167]  INFO -- default-ubuntu-1204: [0m
+I, [2014-02-16T13:46:18.261686 #45167]  INFO -- default-ubuntu-1204: [2014-02-16T18:46:18+00:00] ERROR: Exception handlers complete
+I, [2014-02-16T13:46:18.261734 #45167]  INFO -- default-ubuntu-1204: [2014-02-16T18:46:18+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2014-02-16T13:46:18.261901 #45167]  INFO -- default-ubuntu-1204: 
+Chef Client failed. 3 resources updated in 0.910181989 seconds[0mI, [2014-02-16T13:46:18.262116 #45167]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:18+00:00] ERROR: template[/home/dustinmm80/.ssh/authorized_keys] (github_users::default line 39) had an error: Chef::Exceptions::FileNotFound: Cookbook 'github_users' (0.1.0) does not contain a file at any of these locations:I, [2014-02-16T13:46:18.273124 #45167]  INFO -- default-ubuntu-1204: 
+  templates/ubuntu-12.04/source.erbI, [2014-02-16T13:46:18.273356 #45167]  INFO -- default-ubuntu-1204: 
+  templates/ubuntu/source.erbI, [2014-02-16T13:46:18.273596 #45167]  INFO -- default-ubuntu-1204: 
+  templates/default/source.erbI, [2014-02-16T13:46:18.273818 #45167]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:18.273936 #45167]  INFO -- default-ubuntu-1204: 
+This cookbook _does_ contain: ['/tmp/kitchen/cookbooks/github_users/templates/default/authorized_keys.erb']I, [2014-02-16T13:46:18.274144 #45167]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:18+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)I, [2014-02-16T13:46:18.300800 #45167]  INFO -- default-ubuntu-1204: 
+E, [2014-02-16T13:46:18.322751 #45167] ERROR -- default-ubuntu-1204: Converge failed on instance <default-ubuntu-1204>.
+E, [2014-02-16T13:46:18.322866 #45167] ERROR -- default-ubuntu-1204: ------Exception-------
+E, [2014-02-16T13:46:18.322896 #45167] ERROR -- default-ubuntu-1204: Class: Kitchen::ActionFailed
+E, [2014-02-16T13:46:18.322920 #45167] ERROR -- default-ubuntu-1204: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2014-02-16T13:46:18.322943 #45167] ERROR -- default-ubuntu-1204: ---Nested Exception---
+E, [2014-02-16T13:46:18.322966 #45167] ERROR -- default-ubuntu-1204: Class: Kitchen::SSHFailed
+E, [2014-02-16T13:46:18.322988 #45167] ERROR -- default-ubuntu-1204: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2014-02-16T13:46:18.323013 #45167] ERROR -- default-ubuntu-1204: ------Backtrace-------
+E, [2014-02-16T13:46:18.323059 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:112:in `rescue in run_remote'
+E, [2014-02-16T13:46:18.323082 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:108:in `run_remote'
+E, [2014-02-16T13:46:18.323105 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:48:in `block in converge'
+E, [2014-02-16T13:46:18.323137 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2014-02-16T13:46:18.323161 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2014-02-16T13:46:18.323184 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2014-02-16T13:46:18.323206 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/kitchen-vagrant-0.14.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2014-02-16T13:46:18.323228 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-02-16T13:46:18.323250 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-02-16T13:46:18.323272 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2014-02-16T13:46:18.323317 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-02-16T13:46:18.323339 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-02-16T13:46:18.323361 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2014-02-16T13:46:18.323383 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-02-16T13:46:18.323405 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-02-16T13:46:18.323428 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2014-02-16T13:46:18.323450 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-02-16T13:46:18.323472 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-02-16T13:46:18.323494 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-02-16T13:46:18.323541 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:119:in `converge'
+E, [2014-02-16T13:46:18.323564 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-02-16T13:46:18.323586 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-02-16T13:46:18.323609 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `call'
+E, [2014-02-16T13:46:18.323637 #45167] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `block in create_with_logging_context'
+E, [2014-02-16T13:46:18.323661 #45167] ERROR -- default-ubuntu-1204: ----------------------
+I, [2014-02-16T13:46:34.439092 #45198]  INFO -- default-ubuntu-1204: -----> Converging <default-ubuntu-1204>...
+I, [2014-02-16T13:46:34.441303 #45198]  INFO -- default-ubuntu-1204: Preparing files for transfer
+I, [2014-02-16T13:46:34.454590 #45198]  INFO -- default-ubuntu-1204: Resolving cookbook dependencies with Berkshelf 2.0.14...
+I, [2014-02-16T13:46:35.123663 #45198]  INFO -- default-ubuntu-1204: Removing non-cookbook files before transfer
+I, [2014-02-16T13:46:35.909764 #45198]  INFO -- default-ubuntu-1204: Transfering files to <default-ubuntu-1204>
+[2014-02-16T18:46:36+00:00] INFO: Forking chef instance to converge...I, [2014-02-16T13:46:36.701115 #45198]  INFO -- default-ubuntu-1204: 
+Starting Chef Client, version 11.10.0[0mI, [2014-02-16T13:46:36.741314 #45198]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:36+00:00] INFO: *** Chef 11.10.0 ***I, [2014-02-16T13:46:36.741727 #45198]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:36+00:00] INFO: Chef-client pid: 5156I, [2014-02-16T13:46:36.742007 #45198]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:36+00:00] INFO: Setting the run_list to ["github_users::default"] from JSONI, [2014-02-16T13:46:36.974964 #45198]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:36+00:00] INFO: Run List is [recipe[github_users::default]]I, [2014-02-16T13:46:36.978170 #45198]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:36+00:00] INFO: Run List expands to [github_users::default]I, [2014-02-16T13:46:36.978467 #45198]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:36+00:00] INFO: Starting Chef Run for default-ubuntu-1204I, [2014-02-16T13:46:36.978766 #45198]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:36+00:00] INFO: Running start handlersI, [2014-02-16T13:46:36.979079 #45198]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:36+00:00] INFO: Start handlers complete.I, [2014-02-16T13:46:36.979515 #45198]  INFO -- default-ubuntu-1204: 
+Compiling Cookbooks...[0mI, [2014-02-16T13:46:36.982272 #45198]  INFO -- default-ubuntu-1204: 
+Converging 5 resources[0mI, [2014-02-16T13:46:37.503987 #45198]  INFO -- default-ubuntu-1204: 
+Recipe: github_users::default[0mI, [2014-02-16T13:46:37.504440 #45198]  INFO -- default-ubuntu-1204: 
+  * log[Creating group github] action write[0m[2014-02-16T18:46:37+00:00] INFO: Processing log[Creating group github] action write (github_users::default line 14)I, [2014-02-16T13:46:37.505162 #45198]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:37+00:00] INFO: Creating group githubI, [2014-02-16T13:46:37.506149 #45198]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:37.506479 #45198]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:46:37.506908 #45198]  INFO -- default-ubuntu-1204: 
+  * group[github] action create[0m[2014-02-16T18:46:37+00:00] INFO: Processing group[github] action create (github_users::default line 16)I, [2014-02-16T13:46:37.507636 #45198]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T13:46:37.508659 #45198]  INFO -- default-ubuntu-1204: 
+  * log[Creating users ["dustinmm80"]] action write[0m[2014-02-16T18:46:37+00:00] INFO: Processing log[Creating users ["dustinmm80"]] action write (github_users::default line 21)I, [2014-02-16T13:46:37.509312 #45198]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:37+00:00] INFO: Creating users ["dustinmm80"]I, [2014-02-16T13:46:37.509711 #45198]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:37.509910 #45198]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:46:37.510206 #45198]  INFO -- default-ubuntu-1204: 
+  * user[dustinmm80] action create[0m[2014-02-16T18:46:37+00:00] INFO: Processing user[dustinmm80] action create (github_users::default line 28)I, [2014-02-16T13:46:37.510756 #45198]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T13:46:37.511849 #45198]  INFO -- default-ubuntu-1204: 
+  * template[/home/dustinmm80/.ssh/authorized_keys] action create[0m[2014-02-16T18:46:37+00:00] INFO: Processing template[/home/dustinmm80/.ssh/authorized_keys] action create (github_users::default line 39)I, [2014-02-16T13:46:37.512661 #45198]  INFO -- default-ubuntu-1204: 
+[31mI, [2014-02-16T13:46:37.515583 #45198]  INFO -- default-ubuntu-1204: 
+    * Parent directory /home/dustinmm80/.ssh does not exist.[0m[0mI, [2014-02-16T13:46:37.517056 #45198]  INFO -- default-ubuntu-1204: 
+================================================================================[0mI, [2014-02-16T13:46:37.517436 #45198]  INFO -- default-ubuntu-1204: 
+[31mError executing action `create` on resource 'template[/home/dustinmm80/.ssh/authorized_keys]'[0mI, [2014-02-16T13:46:37.517764 #45198]  INFO -- default-ubuntu-1204: 
+================================================================================[0mI, [2014-02-16T13:46:37.518086 #45198]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:37.518261 #45198]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:46:37.518588 #45198]  INFO -- default-ubuntu-1204: 
+Chef::Exceptions::EnclosingDirectoryDoesNotExist[0mI, [2014-02-16T13:46:37.518891 #45198]  INFO -- default-ubuntu-1204: 
+------------------------------------------------[0mI, [2014-02-16T13:46:37.519175 #45198]  INFO -- default-ubuntu-1204: 
+Parent directory /home/dustinmm80/.ssh does not exist.[0mI, [2014-02-16T13:46:37.519516 #45198]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:37.519684 #45198]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:46:37.520007 #45198]  INFO -- default-ubuntu-1204: 
+Resource Declaration:[0mI, [2014-02-16T13:46:37.520323 #45198]  INFO -- default-ubuntu-1204: 
+---------------------[0mI, [2014-02-16T13:46:37.520605 #45198]  INFO -- default-ubuntu-1204: 
+# In /tmp/kitchen/cookbooks/github_users/recipes/default.rbI, [2014-02-16T13:46:37.520973 #45198]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:37.521144 #45198]  INFO -- default-ubuntu-1204: 
+ 39:     template "/home/#{username}/.ssh/authorized_keys" doI, [2014-02-16T13:46:37.521465 #45198]  INFO -- default-ubuntu-1204: 
+ 40:         source "authorized_keys.erb"I, [2014-02-16T13:46:37.521790 #45198]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:37.521823 #45198]  INFO -- default-ubuntu-1204:  41:         owner username
+I, [2014-02-16T13:46:37.521849 #45198]  INFO -- default-ubuntu-1204:  42:         group node['github_users']['group_name']
+I, [2014-02-16T13:46:37.521878 #45198]  INFO -- default-ubuntu-1204:  43:         mode "0600"
+I, [2014-02-16T13:46:37.522150 #45198]  INFO -- default-ubuntu-1204:  44:         variables(
+I, [2014-02-16T13:46:37.522192 #45198]  INFO -- default-ubuntu-1204:  45:             :public_keys => public_keys
+I, [2014-02-16T13:46:37.522237 #45198]  INFO -- default-ubuntu-1204:  46:         )
+I, [2014-02-16T13:46:37.522277 #45198]  INFO -- default-ubuntu-1204:  47:     end
+I, [2014-02-16T13:46:37.522303 #45198]  INFO -- default-ubuntu-1204:  48: 
+I, [2014-02-16T13:46:37.522341 #45198]  INFO -- default-ubuntu-1204: [0m
+I, [2014-02-16T13:46:37.522382 #45198]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:37.522425 #45198]  INFO -- default-ubuntu-1204: [0m
+I, [2014-02-16T13:46:37.522456 #45198]  INFO -- default-ubuntu-1204: Compiled Resource:[0m
+I, [2014-02-16T13:46:37.522481 #45198]  INFO -- default-ubuntu-1204: ------------------[0m
+I, [2014-02-16T13:46:37.522505 #45198]  INFO -- default-ubuntu-1204: # Declared in /tmp/kitchen/cookbooks/github_users/recipes/default.rb:39:in `block in from_file'
+I, [2014-02-16T13:46:37.522530 #45198]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:37.522594 #45198]  INFO -- default-ubuntu-1204: template("/home/dustinmm80/.ssh/authorized_keys") do
+I, [2014-02-16T13:46:37.522636 #45198]  INFO -- default-ubuntu-1204:   provider Chef::Provider::Template
+I, [2014-02-16T13:46:37.522663 #45198]  INFO -- default-ubuntu-1204:   action "create"
+I, [2014-02-16T13:46:37.522729 #45198]  INFO -- default-ubuntu-1204:   retries 0
+I, [2014-02-16T13:46:37.522766 #45198]  INFO -- default-ubuntu-1204:   retry_delay 2
+I, [2014-02-16T13:46:37.522791 #45198]  INFO -- default-ubuntu-1204:   path "/home/dustinmm80/.ssh/authorized_keys"
+I, [2014-02-16T13:46:37.522814 #45198]  INFO -- default-ubuntu-1204:   backup 5
+I, [2014-02-16T13:46:37.522855 #45198]  INFO -- default-ubuntu-1204:   atomic_update true
+I, [2014-02-16T13:46:37.522899 #45198]  INFO -- default-ubuntu-1204:   source "authorized_keys.erb"
+I, [2014-02-16T13:46:37.522936 #45198]  INFO -- default-ubuntu-1204:   variables {:public_keys=>["ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAxYZYUMF65QEbVygUkr1HBqmKIn58jXgBRPGx05SAwBYgZJpAuMf3OvSMrv+hlHOqjyoLueb/INXYCnqWOQkLvoCyqFn8maMMPrFSQWcv64BCAgrewvWhoELaLnBdyQjYL+QQ/CC0OBDnKwr5l1P2hx5+y4ozY4R0aparajtTE7sGKGsn9H0W6Fb+AH3GIrYpf8Gv5rcd0XN3ifIt3vXaTBQQLRtKUf9bZO2m/s0fTNTPelXhXUC6XwmwGudk+jme0S//UzDCfFMFofahdFdmGIZMyEYlo6W861PzOXG8SRqNEveQuY9j8dvfHqCQsOQFMISazwmrWiDuX9SypG3zfw==", "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA8FvxoUgSWlFRoVoxYCRsl1AXa1At1TV70i9rBgrg5Nt+IqhQu6zWgeFzamqB79aTLosydDVu0xcR5gFi9TEB7oWP9HFJYUe4zBrudbph0l2ehf2lo6/83mvgLEvJwASLbQ+o9D0Pl+N6SPiiAwacXQpG045gPxezIsVR3RPBxfIIXrd8QNJavYWMjNI4cUGPlYtrMxr+WOS2irnzUKNwm4u9CrcUIMjHJpMEpT1nsixSrxFJB64HJG4qqlhErHulU29Pg9AkXdClM1Sa0JE4bvZMpcC2XdKD7Ev4ZNeDJJItJYvY/j5DeuHiH2AcyncJKePCEYf+gWkso5V6hDMjvw==", "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAzoAWkrQv3FnDj+6/081XXmwLprN2HgyXRYcwVAhN1zcUHzfgs4Z/+O2rX3FnDxcWAbCwZSFCp1ktbTBVwzOPUEjioPOadbQmOBDq5Y0cUKonvn+eIFKeKjJC7Tjx1rExWG0fTzCtGr42IV6wtwVcva4zt5jx13HUgxQicxuNGc/nQ2jJiiggY5d4i+xQTfH1SkU8QwS0Tv81v771IU0PSz52bY082Ocoz67qfAZNgwfQGEk6Fyab3RVYqbjXile6Uwl5xG8+1RWBEKxJGD/QUrvOF+VyXHl3iyq1869EkzRY7Qsh+r/5PO+k00rJQbmcms/irM7KqdLn8B/eiO/U5Q==", "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5uX9hrMOfkxZB2IMdjbpQmRuxoQz6sCbLt/nZYWVAwzyB5pQ0t1K9pnF2ocPgBCCXCaoRlRyz+riCv9PcJLs4lrmt9YjRwBybCuRoqhCZ338KAz6ty2VWnDAFh7+WU+RXUm/CDeF7nSrbfzyS15u0n23P0IskR9rI43a8leUeimn8uy6QXZcpyBRYwg/31FO9m03RXNj+07ff5t+888BcB+mT5AnIayjXkUZ9r463hRB04KowSFiOUIr2eUh8/AaWzCq3YXthE/wnTxCoFDohS20EE/gPB+pYz4m700lD2yAvfynq9i9wSMBiDCCCnL3NUlNyIf+rRS1dIKxblInv", "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDd0ib9RLNPYpRzw3W3HV1dSV5R4g+Ozcw3Mb81EhVEUb27kFt4xY6ArPiD7GrwR/VYwpQ7dys/u+C8+vrj1Wma1eDOQLpDBUytFstV8WNdb5Ka9oIwtEtZZA87eQv5yv+voBMH5lH7QbmtVFfz1PKV6fQIunhrAly4AeAjuDeKk0eCCqfHDhcHMtUSkf1kVeI/Jg0FIqBkSKuKfSKtUEWE9P1BnBvf7sO4hqBpS+K/aBsxDyigvbU/ioIVpsWLzIDsHC9yOpyqi5Qnr/PV4fbdbKk4WuhTwq5ClTuDFLPM57Bv/DEqEQL7leldFf0D4FW+ThQMhLg1ig7Txr2PRj3", "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAzZ5HgGmZy6np5RZoCh2/P8gayiF6nEga42pSZFOgHFwEE/L2eBSFf294FL3CUH4RFXwnxS9W0xYzaZIAQi+O7zpKxWbvNB41S1CVEPMTla0Z60oRbTVKxlJmq/oafeOg1UUt39UeotaYwmJwuIDU/sNdpDziZ1qU1hEHap4TnC/QyTGyHI30gYD/XM7F2zcXRGy8n4YOX6cwSPBQx/kpBeWZrMq8tKDA7mRN6tGefEGjcQhshmbiIr9RPar+0ZWzQTQ/LtMj15K5XwHhR/DoR9JwnhYhJ7jrXWt1SV74BK/4BpbmaIfCU6T9BmNv8eSyp4BpzytJDYJg0WASZeGoMw==", "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzMwwPonBgqE9SItF7nGPoAa5JHQrprvD09yH1wSVOSwwsfMErsLzjE6H6LndeAY1ARnJmRv5c5nZKDUiz7z65821Ozttlx6Thqj5tAnqv/4CEJG6lT/kCCXynFMldsRpit2hDwV+IoQrQxjyQDC8VKgZH0VY873wPA8ODGShly5yzE3MbIAWHcEYdKcvtiXCsT+54WQU1IAYPf9pS6TWnmWkn1Cg3EBtkpJ1cLMobmEKk2Q4+uyExvhUKVXL+s6TWKSML250AkGlB/t/s5srUg0dgNmCkyzWzyRtyCwhZD45p3yrpvA5tf/+oDxvoXgNSGDeZCQN0sylX00g13sdN", "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8rjKzMC2dxp+Vl3JUbANG3W1rOYm6qangu4dU1deot2mmzFsoWtv67tmd90scrCua/3Ex60St++rmmOi+Y3eTdYnmzW0/ggi4q27ioW7CSc0emU8/6/UkEk3r77nNnKCsfZeKI6cjiJQuQK7DawkGoQU/HUX5aPfIfoDI6b9jzoMxB9j7JE8g23eBX8Q/g8oPMVMXhMiHmNt0PlHUOtB1Cq1uCWaTtfB5IvxKH+3TT0ODn5b4VrVRe8qx7Z7ugGJ6CqBD6CZyjzFhtUx+WkN1BftlMwz5XkQvLppG86gW5tLUmUVyqM+ekcT4DOQh+ETG/epfGZTgNL4tW2ZNNFOh"]}
+I, [2014-02-16T13:46:37.524098 #45198]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:37.524138 #45198]  INFO -- default-ubuntu-1204:   cookbook_name :github_users
+I, [2014-02-16T13:46:37.524163 #45198]  INFO -- default-ubuntu-1204:   recipe_name "default"
+I, [2014-02-16T13:46:37.524188 #45198]  INFO -- default-ubuntu-1204:   owner "dustinmm80"
+I, [2014-02-16T13:46:37.524225 #45198]  INFO -- default-ubuntu-1204:   group "github"
+I, [2014-02-16T13:46:37.524250 #45198]  INFO -- default-ubuntu-1204:   mode "0600"
+I, [2014-02-16T13:46:37.524290 #45198]  INFO -- default-ubuntu-1204: end
+I, [2014-02-16T13:46:37.524314 #45198]  INFO -- default-ubuntu-1204: [0m
+I, [2014-02-16T13:46:37.524337 #45198]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:37.524359 #45198]  INFO -- default-ubuntu-1204: [0m
+I, [2014-02-16T13:46:37.524383 #45198]  INFO -- default-ubuntu-1204: [2014-02-16T18:46:37+00:00] INFO: Running queued delayed notifications before re-raising exception
+I, [2014-02-16T13:46:37.524407 #45198]  INFO -- default-ubuntu-1204: 
+Running handlers:[0mI, [2014-02-16T13:46:37.524775 #45198]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:37+00:00] ERROR: Running exception handlersI, [2014-02-16T13:46:37.524976 #45198]  INFO -- default-ubuntu-1204: 
+Running handlers completeI, [2014-02-16T13:46:37.525148 #45198]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:46:37.525340 #45198]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:46:37.525442 #45198]  INFO -- default-ubuntu-1204: [2014-02-16T18:46:37+00:00] ERROR: Exception handlers complete
+I, [2014-02-16T13:46:37.525470 #45198]  INFO -- default-ubuntu-1204: [2014-02-16T18:46:37+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2014-02-16T13:46:37.525610 #45198]  INFO -- default-ubuntu-1204: 
+Chef Client failed. 2 resources updated in 0.823960726 seconds[0mI, [2014-02-16T13:46:37.525781 #45198]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:37+00:00] ERROR: template[/home/dustinmm80/.ssh/authorized_keys] (github_users::default line 39) had an error: Chef::Exceptions::EnclosingDirectoryDoesNotExist: Parent directory /home/dustinmm80/.ssh does not exist.I, [2014-02-16T13:46:37.539079 #45198]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:46:37+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)I, [2014-02-16T13:46:37.564235 #45198]  INFO -- default-ubuntu-1204: 
+E, [2014-02-16T13:46:37.587754 #45198] ERROR -- default-ubuntu-1204: Converge failed on instance <default-ubuntu-1204>.
+E, [2014-02-16T13:46:37.587846 #45198] ERROR -- default-ubuntu-1204: ------Exception-------
+E, [2014-02-16T13:46:37.587895 #45198] ERROR -- default-ubuntu-1204: Class: Kitchen::ActionFailed
+E, [2014-02-16T13:46:37.587919 #45198] ERROR -- default-ubuntu-1204: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2014-02-16T13:46:37.587942 #45198] ERROR -- default-ubuntu-1204: ---Nested Exception---
+E, [2014-02-16T13:46:37.587965 #45198] ERROR -- default-ubuntu-1204: Class: Kitchen::SSHFailed
+E, [2014-02-16T13:46:37.587987 #45198] ERROR -- default-ubuntu-1204: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2014-02-16T13:46:37.588021 #45198] ERROR -- default-ubuntu-1204: ------Backtrace-------
+E, [2014-02-16T13:46:37.588043 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:112:in `rescue in run_remote'
+E, [2014-02-16T13:46:37.588086 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:108:in `run_remote'
+E, [2014-02-16T13:46:37.588108 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:48:in `block in converge'
+E, [2014-02-16T13:46:37.588134 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2014-02-16T13:46:37.588158 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2014-02-16T13:46:37.588191 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2014-02-16T13:46:37.588215 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/kitchen-vagrant-0.14.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2014-02-16T13:46:37.588236 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-02-16T13:46:37.588257 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-02-16T13:46:37.588300 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2014-02-16T13:46:37.588326 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-02-16T13:46:37.588348 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-02-16T13:46:37.588373 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2014-02-16T13:46:37.588394 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-02-16T13:46:37.588416 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-02-16T13:46:37.588437 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2014-02-16T13:46:37.588457 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-02-16T13:46:37.588492 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-02-16T13:46:37.588514 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-02-16T13:46:37.588535 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:119:in `converge'
+E, [2014-02-16T13:46:37.588557 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-02-16T13:46:37.588578 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-02-16T13:46:37.588599 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `call'
+E, [2014-02-16T13:46:37.588620 #45198] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `block in create_with_logging_context'
+E, [2014-02-16T13:46:37.588642 #45198] ERROR -- default-ubuntu-1204: ----------------------
+I, [2014-02-16T13:47:44.646430 #45250]  INFO -- default-ubuntu-1204: -----> Converging <default-ubuntu-1204>...
+I, [2014-02-16T13:47:44.648096 #45250]  INFO -- default-ubuntu-1204: Preparing files for transfer
+I, [2014-02-16T13:47:44.657645 #45250]  INFO -- default-ubuntu-1204: Resolving cookbook dependencies with Berkshelf 2.0.14...
+I, [2014-02-16T13:47:45.351556 #45250]  INFO -- default-ubuntu-1204: Removing non-cookbook files before transfer
+I, [2014-02-16T13:47:46.175031 #45250]  INFO -- default-ubuntu-1204: Transfering files to <default-ubuntu-1204>
+[2014-02-16T18:47:46+00:00] INFO: Forking chef instance to converge...I, [2014-02-16T13:47:47.013817 #45250]  INFO -- default-ubuntu-1204: 
+Starting Chef Client, version 11.10.0[0mI, [2014-02-16T13:47:47.055838 #45250]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:47:46+00:00] INFO: *** Chef 11.10.0 ***I, [2014-02-16T13:47:47.056166 #45250]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:47:46+00:00] INFO: Chef-client pid: 5318I, [2014-02-16T13:47:47.056433 #45250]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:47:47+00:00] INFO: Setting the run_list to ["github_users::default"] from JSONI, [2014-02-16T13:47:47.301062 #45250]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:47:47+00:00] INFO: Run List is [recipe[github_users::default]]I, [2014-02-16T13:47:47.304495 #45250]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:47:47+00:00] INFO: Run List expands to [github_users::default]I, [2014-02-16T13:47:47.304806 #45250]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:47:47+00:00] INFO: Starting Chef Run for default-ubuntu-1204I, [2014-02-16T13:47:47.305110 #45250]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:47:47+00:00] INFO: Running start handlersI, [2014-02-16T13:47:47.305437 #45250]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:47:47+00:00] INFO: Start handlers complete.I, [2014-02-16T13:47:47.305674 #45250]  INFO -- default-ubuntu-1204: 
+Compiling Cookbooks...[0mI, [2014-02-16T13:47:47.308672 #45250]  INFO -- default-ubuntu-1204: 
+Converging 6 resources[0mI, [2014-02-16T13:47:48.433371 #45250]  INFO -- default-ubuntu-1204: 
+Recipe: github_users::default[0mI, [2014-02-16T13:47:48.433731 #45250]  INFO -- default-ubuntu-1204: 
+  * log[Creating group github] action write[0m[2014-02-16T18:47:48+00:00] INFO: Processing log[Creating group github] action write (github_users::default line 14)I, [2014-02-16T13:47:48.434492 #45250]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:47:48+00:00] INFO: Creating group githubI, [2014-02-16T13:47:48.435537 #45250]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:47:48.435765 #45250]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:47:48.436188 #45250]  INFO -- default-ubuntu-1204: 
+  * group[github] action create[0m[2014-02-16T18:47:48+00:00] INFO: Processing group[github] action create (github_users::default line 16)I, [2014-02-16T13:47:48.436782 #45250]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T13:47:48.437564 #45250]  INFO -- default-ubuntu-1204: 
+  * log[Creating users ["dustinmm80"]] action write[0m[2014-02-16T18:47:48+00:00] INFO: Processing log[Creating users ["dustinmm80"]] action write (github_users::default line 21)I, [2014-02-16T13:47:48.438266 #45250]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:47:48+00:00] INFO: Creating users ["dustinmm80"]I, [2014-02-16T13:47:48.438758 #45250]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:47:48.438997 #45250]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:47:48.439340 #45250]  INFO -- default-ubuntu-1204: 
+  * user[dustinmm80] action create[0m[2014-02-16T18:47:48+00:00] INFO: Processing user[dustinmm80] action create (github_users::default line 28)I, [2014-02-16T13:47:48.439861 #45250]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T13:47:48.440567 #45250]  INFO -- default-ubuntu-1204: 
+  * directory[/home/dustinmm80/.ssh] action create[0m[2014-02-16T18:47:48+00:00] INFO: Processing directory[/home/dustinmm80/.ssh] action create (github_users::default line 39)I, [2014-02-16T13:47:48.441006 #45250]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:47:48+00:00] INFO: directory[/home/dustinmm80/.ssh] created directory /home/dustinmm80/.sshI, [2014-02-16T13:47:48.441788 #45250]  INFO -- default-ubuntu-1204: 
+[32mI, [2014-02-16T13:47:48.442140 #45250]  INFO -- default-ubuntu-1204: 
+    - create new directory /home/dustinmm80/.ssh[0m[2014-02-16T18:47:48+00:00] INFO: directory[/home/dustinmm80/.ssh] owner changed to 998I, [2014-02-16T13:47:48.442814 #45250]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:47:48+00:00] INFO: directory[/home/dustinmm80/.ssh] group changed to 2157I, [2014-02-16T13:47:48.443293 #45250]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:47:48+00:00] INFO: directory[/home/dustinmm80/.ssh] mode changed to 644I, [2014-02-16T13:47:48.443635 #45250]  INFO -- default-ubuntu-1204: 
+[32mI, [2014-02-16T13:47:48.443955 #45250]  INFO -- default-ubuntu-1204: 
+    - change mode from '' to '0644'[0m[32mI, [2014-02-16T13:47:48.444369 #45250]  INFO -- default-ubuntu-1204: 
+    - change owner from '' to 'dustinmm80'[0m[32mI, [2014-02-16T13:47:48.444809 #45250]  INFO -- default-ubuntu-1204: 
+    - change group from '' to 'github'[0mI, [2014-02-16T13:47:48.445482 #45250]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:47:48.445721 #45250]  INFO -- default-ubuntu-1204: 
+  * template[/home/dustinmm80/.ssh/authorized_keys] action create[0m[2014-02-16T18:47:48+00:00] INFO: Processing template[/home/dustinmm80/.ssh/authorized_keys] action create (github_users::default line 46)I, [2014-02-16T13:47:48.446338 #45250]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:47:48+00:00] INFO: template[/home/dustinmm80/.ssh/authorized_keys] created file /home/dustinmm80/.ssh/authorized_keysI, [2014-02-16T13:47:48.449196 #45250]  INFO -- default-ubuntu-1204: 
+[32mI, [2014-02-16T13:47:48.449521 #45250]  INFO -- default-ubuntu-1204: 
+    - create new file /home/dustinmm80/.ssh/authorized_keys[0m[2014-02-16T18:47:48+00:00] INFO: template[/home/dustinmm80/.ssh/authorized_keys] updated file contents /home/dustinmm80/.ssh/authorized_keysI, [2014-02-16T13:47:48.452215 #45250]  INFO -- default-ubuntu-1204: 
+[32mI, [2014-02-16T13:47:48.452652 #45250]  INFO -- default-ubuntu-1204: 
+    - update content in file /home/dustinmm80/.ssh/authorized_keys from none to 251ec4[0m[37mI, [2014-02-16T13:47:48.453125 #45250]  INFO -- default-ubuntu-1204: 
+        --- /home/dustinmm80/.ssh/authorized_keys	2014-02-16 18:47:48.369328502 +0000[0m[37mI, [2014-02-16T13:47:48.453951 #45250]  INFO -- default-ubuntu-1204: 
+        +++ /tmp/chef-rendered-template20140216-5318-1k9npn9	2014-02-16 18:47:48.369328502 +0000[0m[37mI, [2014-02-16T13:47:48.454702 #45250]  INFO -- default-ubuntu-1204: 
+        @@ -1 +1,9 @@[0m[37mI, [2014-02-16T13:47:48.455160 #45250]  INFO -- default-ubuntu-1204: 
+        +    ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAxYZYUMF65QEbVygUkr1HBqmKIn58jXgBRPGx05SAwBYgZJpAuMf3OvSMrv+hlHOqjyoLueb/INXYCnqWOQkLvoCyqFn8maMMPrFSQWcv64BCAgrewvWhoELaLnBdyQjYL+QQ/CC0OBDnKwr5l1P2hx5+y4ozY4R0aparajtTE7sGKGsn9H0W6Fb+AH3GIrYpf8Gv5rcd0XN3ifIt3vXaTBQQLRtKUf9bZO2m/s0fTNTPelXhXUC6XwmwGudk+jme0S//UzDCfFMFofahdFdmGIZMyEYlo6W861PzOXG8SRqNEveQuY9j8dvfHqCQsOQFMISazwmrWiDuX9SypG3zfw==[0m[37mI, [2014-02-16T13:47:48.455601 #45250]  INFO -- default-ubuntu-1204: 
+        +    ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA8FvxoUgSWlFRoVoxYCRsl1AXa1At1TV70i9rBgrg5Nt+IqhQu6zWgeFzamqB79aTLosydDVu0xcR5gFi9TEB7oWP9HFJYUe4zBrudbph0l2ehf2lo6/83mvgLEvJwASLbQ+o9D0Pl+N6SPiiAwacXQpG045gPxezIsVR3RPBxfIIXrd8QNJavYWMjNI4cUGPlYtrMxr+WOS2irnzUKNwm4u9CrcUIMjHJpMEpT1nsixSrxFJB64HJG4qqlhErHulU29Pg9AkXdClM1Sa0JE4bvZMpcC2XdKD7Ev4ZNeDJJItJYvY/j5DeuHiH2AcyncJKePCEYf+gWkso5V6hDMjvw==[0m[37mI, [2014-02-16T13:47:48.456085 #45250]  INFO -- default-ubuntu-1204: 
+        +    ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAzoAWkrQv3FnDj+6/081XXmwLprN2HgyXRYcwVAhN1zcUHzfgs4Z/+O2rX3FnDxcWAbCwZSFCp1ktbTBVwzOPUEjioPOadbQmOBDq5Y0cUKonvn+eIFKeKjJC7Tjx1rExWG0fTzCtGr42IV6wtwVcva4zt5jx13HUgxQicxuNGc/nQ2jJiiggY5d4i+xQTfH1SkU8QwS0Tv81v771IU0PSz52bY082Ocoz67qfAZNgwfQGEk6Fyab3RVYqbjXile6Uwl5xG8+1RWBEKxJGD/QUrvOF+VyXHl3iyq1869EkzRY7Qsh+r/5PO+k00rJQbmcms/irM7KqdLn8B/eiO/U5Q==[0m[37mI, [2014-02-16T13:47:48.456590 #45250]  INFO -- default-ubuntu-1204: 
+        +    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5uX9hrMOfkxZB2IMdjbpQmRuxoQz6sCbLt/nZYWVAwzyB5pQ0t1K9pnF2ocPgBCCXCaoRlRyz+riCv9PcJLs4lrmt9YjRwBybCuRoqhCZ338KAz6ty2VWnDAFh7+WU+RXUm/CDeF7nSrbfzyS15u0n23P0IskR9rI43a8leUeimn8uy6QXZcpyBRYwg/31FO9m03RXNj+07ff5t+888BcB+mT5AnIayjXkUZ9r463hRB04KowSFiOUIr2eUh8/AaWzCq3YXthE/wnTxCoFDohS20EE/gPB+pYz4m700lD2yAvfynq9i9wSMBiDCCCnL3NUlNyIf+rRS1dIKxblInv[0m[37mI, [2014-02-16T13:47:48.457107 #45250]  INFO -- default-ubuntu-1204: 
+        +    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDd0ib9RLNPYpRzw3W3HV1dSV5R4g+Ozcw3Mb81EhVEUb27kFt4xY6ArPiD7GrwR/VYwpQ7dys/u+C8+vrj1Wma1eDOQLpDBUytFstV8WNdb5Ka9oIwtEtZZA87eQv5yv+voBMH5lH7QbmtVFfz1PKV6fQIunhrAly4AeAjuDeKk0eCCqfHDhcHMtUSkf1kVeI/Jg0FIqBkSKuKfSKtUEWE9P1BnBvf7sO4hqBpS+K/aBsxDyigvbU/ioIVpsWLzIDsHC9yOpyqi5Qnr/PV4fbdbKk4WuhTwq5ClTuDFLPM57Bv/DEqEQL7leldFf0D4FW+ThQMhLg1ig7Txr2PRj3[0m[37mI, [2014-02-16T13:47:48.457525 #45250]  INFO -- default-ubuntu-1204: 
+        +    ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAzZ5HgGmZy6np5RZoCh2/P8gayiF6nEga42pSZFOgHFwEE/L2eBSFf294FL3CUH4RFXwnxS9W0xYzaZIAQi+O7zpKxWbvNB41S1CVEPMTla0Z60oRbTVKxlJmq/oafeOg1UUt39UeotaYwmJwuIDU/sNdpDziZ1qU1hEHap4TnC/QyTGyHI30gYD/XM7F2zcXRGy8n4YOX6cwSPBQx/kpBeWZrMq8tKDA7mRN6tGefEGjcQhshmbiIr9RPar+0ZWzQTQ/LtMj15K5XwHhR/DoR9JwnhYhJ7jrXWt1SV74BK/4BpbmaIfCU6T9BmNv8eSyp4BpzytJDYJg0WASZeGoMw==[0m[37mI, [2014-02-16T13:47:48.457984 #45250]  INFO -- default-ubuntu-1204: 
+        +    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzMwwPonBgqE9SItF7nGPoAa5JHQrprvD09yH1wSVOSwwsfMErsLzjE6H6LndeAY1ARnJmRv5c5nZKDUiz7z65821Ozttlx6Thqj5tAnqv/4CEJG6lT/kCCXynFMldsRpit2hDwV+IoQrQxjyQDC8VKgZH0VY873wPA8ODGShly5yzE3MbIAWHcEYdKcvtiXCsT+54WQU1IAYPf9pS6TWnmWkn1Cg3EBtkpJ1cLMobmEKk2Q4+uyExvhUKVXL+s6TWKSML250AkGlB/t/s5srUg0dgNmCkyzWzyRtyCwhZD45p3yrpvA5tf/+oDxvoXgNSGDeZCQN0sylX00g13sdN[0m[37mI, [2014-02-16T13:47:48.458428 #45250]  INFO -- default-ubuntu-1204: 
+        +    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8rjKzMC2dxp+Vl3JUbANG3W1rOYm6qangu4dU1deot2mmzFsoWtv67tmd90scrCua/3Ex60St++rmmOi+Y3eTdYnmzW0/ggi4q27ioW7CSc0emU8/6/UkEk3r77nNnKCsfZeKI6cjiJQuQK7DawkGoQU/HUX5aPfIfoDI6b9jzoMxB9j7JE8g23eBX8Q/g8oPMVMXhMiHmNt0PlHUOtB1Cq1uCWaTtfB5IvxKH+3TT0ODn5b4VrVRe8qx7Z7ugGJ6CqBD6CZyjzFhtUx+WkN1BftlMwz5XkQvLppG86gW5tLUmUVyqM+ekcT4DOQh+ETG/epfGZTgNL4tW2ZNNFOh[0m[2014-02-16T18:47:48+00:00] INFO: template[/home/dustinmm80/.ssh/authorized_keys] owner changed to 998I, [2014-02-16T13:47:48.458943 #45250]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:47:48+00:00] INFO: template[/home/dustinmm80/.ssh/authorized_keys] group changed to 2157I, [2014-02-16T13:47:48.459312 #45250]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:47:48+00:00] INFO: template[/home/dustinmm80/.ssh/authorized_keys] mode changed to 600I, [2014-02-16T13:47:48.459692 #45250]  INFO -- default-ubuntu-1204: 
+[32mI, [2014-02-16T13:47:48.459974 #45250]  INFO -- default-ubuntu-1204: 
+    - change mode from '' to '0600'[0m[32mI, [2014-02-16T13:47:48.460494 #45250]  INFO -- default-ubuntu-1204: 
+    - change owner from '' to 'dustinmm80'[0m[32mI, [2014-02-16T13:47:48.460960 #45250]  INFO -- default-ubuntu-1204: 
+    - change group from '' to 'github'[0mI, [2014-02-16T13:47:48.461333 #45250]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:47:48.461684 #45250]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:47:48+00:00] INFO: Chef Run complete in 1.156228527 secondsI, [2014-02-16T13:47:48.462022 #45250]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:47:48.462231 #45250]  INFO -- default-ubuntu-1204: 
+Running handlers:[0mI, [2014-02-16T13:47:48.462584 #45250]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:47:48+00:00] INFO: Running report handlersI, [2014-02-16T13:47:48.462853 #45250]  INFO -- default-ubuntu-1204: 
+Running handlers completeI, [2014-02-16T13:47:48.463087 #45250]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:47:48.463291 #45250]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:47:48+00:00] INFO: Report handlers completeI, [2014-02-16T13:47:48.463483 #45250]  INFO -- default-ubuntu-1204: 
+Chef Client finished, 4/6 resources updated in 1.449850023 seconds[0mI, [2014-02-16T13:47:48.463700 #45250]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:47:48.530027 #45250]  INFO -- default-ubuntu-1204: Finished converging <default-ubuntu-1204> (0m3.88s).
+I, [2014-02-16T13:53:31.006575 #45350]  INFO -- default-ubuntu-1204: -----> Converging <default-ubuntu-1204>...
+I, [2014-02-16T13:53:31.008236 #45350]  INFO -- default-ubuntu-1204: Preparing files for transfer
+I, [2014-02-16T13:53:31.017218 #45350]  INFO -- default-ubuntu-1204: Resolving cookbook dependencies with Berkshelf 2.0.14...
+I, [2014-02-16T13:53:31.708909 #45350]  INFO -- default-ubuntu-1204: Removing non-cookbook files before transfer
+I, [2014-02-16T13:53:32.489231 #45350]  INFO -- default-ubuntu-1204: Transfering files to <default-ubuntu-1204>
+[2014-02-16T18:53:33+00:00] INFO: Forking chef instance to converge...I, [2014-02-16T13:53:33.305574 #45350]  INFO -- default-ubuntu-1204: 
+Starting Chef Client, version 11.10.0[0mI, [2014-02-16T13:53:33.346947 #45350]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:33+00:00] INFO: *** Chef 11.10.0 ***I, [2014-02-16T13:53:33.347377 #45350]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:33+00:00] INFO: Chef-client pid: 5480I, [2014-02-16T13:53:33.347696 #45350]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:33+00:00] INFO: Setting the run_list to ["github_users::default"] from JSONI, [2014-02-16T13:53:33.590285 #45350]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:33+00:00] INFO: Run List is [recipe[github_users::default]]I, [2014-02-16T13:53:33.594976 #45350]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:33+00:00] INFO: Run List expands to [github_users::default]I, [2014-02-16T13:53:33.595353 #45350]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:33+00:00] INFO: Starting Chef Run for default-ubuntu-1204I, [2014-02-16T13:53:33.595705 #45350]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:33+00:00] INFO: Running start handlersI, [2014-02-16T13:53:33.596000 #45350]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:33+00:00] INFO: Start handlers complete.I, [2014-02-16T13:53:33.596264 #45350]  INFO -- default-ubuntu-1204: 
+Compiling Cookbooks...[0mI, [2014-02-16T13:53:33.600595 #45350]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:53:34.510901 #45350]  INFO -- default-ubuntu-1204: 
+================================================================================[0mI, [2014-02-16T13:53:34.511678 #45350]  INFO -- default-ubuntu-1204: 
+[31mRecipe Compile Error in /tmp/kitchen/cookbooks/github_users/recipes/default.rb[0mI, [2014-02-16T13:53:34.512033 #45350]  INFO -- default-ubuntu-1204: 
+================================================================================[0mI, [2014-02-16T13:53:34.512404 #45350]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:53:34.512583 #45350]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:53:34.512960 #45350]  INFO -- default-ubuntu-1204: 
+TypeError[0mI, [2014-02-16T13:53:34.513277 #45350]  INFO -- default-ubuntu-1204: 
+---------[0mI, [2014-02-16T13:53:34.513610 #45350]  INFO -- default-ubuntu-1204: 
+can't convert String into Integer[0mI, [2014-02-16T13:53:34.514010 #45350]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:53:34.514171 #45350]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:53:34.514473 #45350]  INFO -- default-ubuntu-1204: 
+Cookbook Trace:[0mI, [2014-02-16T13:53:34.514771 #45350]  INFO -- default-ubuntu-1204: 
+---------------[0mI, [2014-02-16T13:53:34.515151 #45350]  INFO -- default-ubuntu-1204: 
+  /tmp/kitchen/cookbooks/github_users/recipes/default.rb:56:in `[]'I, [2014-02-16T13:53:34.515428 #45350]  INFO -- default-ubuntu-1204: 
+  /tmp/kitchen/cookbooks/github_users/recipes/default.rb:56:in `block in from_file'I, [2014-02-16T13:53:34.515735 #45350]  INFO -- default-ubuntu-1204: 
+  /tmp/kitchen/cookbooks/github_users/recipes/default.rb:23:in `each'I, [2014-02-16T13:53:34.515969 #45350]  INFO -- default-ubuntu-1204: 
+  /tmp/kitchen/cookbooks/github_users/recipes/default.rb:23:in `from_file'[0mI, [2014-02-16T13:53:34.516240 #45350]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:53:34.516365 #45350]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:53:34.516713 #45350]  INFO -- default-ubuntu-1204: 
+Relevant File Content:[0mI, [2014-02-16T13:53:34.517000 #45350]  INFO -- default-ubuntu-1204: 
+----------------------[0mI, [2014-02-16T13:53:34.517310 #45350]  INFO -- default-ubuntu-1204: 
+/tmp/kitchen/cookbooks/github_users/recipes/default.rb:I, [2014-02-16T13:53:34.517624 #45350]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:53:34.517793 #45350]  INFO -- default-ubuntu-1204: 
+ 49:          group node['github_users']['group_name']I, [2014-02-16T13:53:34.518108 #45350]  INFO -- default-ubuntu-1204: 
+ 50:          mode "0600"I, [2014-02-16T13:53:34.518336 #45350]  INFO -- default-ubuntu-1204: 
+ 51:          variables(I, [2014-02-16T13:53:34.518648 #45350]  INFO -- default-ubuntu-1204: 
+ 52:              :public_keys => public_keysI, [2014-02-16T13:53:34.518878 #45350]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:53:34.519156 #45350]  INFO -- default-ubuntu-1204:  53:          )
+I, [2014-02-16T13:53:34.519194 #45350]  INFO -- default-ubuntu-1204:  54:      end
+I, [2014-02-16T13:53:34.519228 #45350]  INFO -- default-ubuntu-1204:  55:  
+I, [2014-02-16T13:53:34.519277 #45350]  INFO -- default-ubuntu-1204:  56>>     if ['github_users']['allow_sudo']
+I, [2014-02-16T13:53:34.519318 #45350]  INFO -- default-ubuntu-1204:  57:          node.default['authorization']['sudo']['include_sudoers_d'] = true
+I, [2014-02-16T13:53:34.519345 #45350]  INFO -- default-ubuntu-1204:  58:  
+I, [2014-02-16T13:53:34.519371 #45350]  INFO -- default-ubuntu-1204:  59:          sudo node['github_users']['group_name'] do
+I, [2014-02-16T13:53:34.519413 #45350]  INFO -- default-ubuntu-1204:  60:              group node['github_users']['group_name']
+I, [2014-02-16T13:53:34.519442 #45350]  INFO -- default-ubuntu-1204:  61:              nopasswd true
+I, [2014-02-16T13:53:34.519468 #45350]  INFO -- default-ubuntu-1204:  62:          end 
+I, [2014-02-16T13:53:34.519492 #45350]  INFO -- default-ubuntu-1204:  63:      end
+I, [2014-02-16T13:53:34.519516 #45350]  INFO -- default-ubuntu-1204:  64:  end
+I, [2014-02-16T13:53:34.519540 #45350]  INFO -- default-ubuntu-1204:  65:  [0m
+I, [2014-02-16T13:53:34.519564 #45350]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:53:34.519588 #45350]  INFO -- default-ubuntu-1204: [0m
+I, [2014-02-16T13:53:34.519627 #45350]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:53:34.520102 #45350]  INFO -- default-ubuntu-1204: Running handlers:[0m
+I, [2014-02-16T13:53:34.520139 #45350]  INFO -- default-ubuntu-1204: [2014-02-16T18:53:34+00:00] ERROR: Running exception handlers
+I, [2014-02-16T13:53:34.520301 #45350]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:53:34.520331 #45350]  INFO -- default-ubuntu-1204: Running handlers complete
+I, [2014-02-16T13:53:34.520357 #45350]  INFO -- default-ubuntu-1204: [0m
+I, [2014-02-16T13:53:34.520382 #45350]  INFO -- default-ubuntu-1204: [2014-02-16T18:53:34+00:00] ERROR: Exception handlers complete
+I, [2014-02-16T13:53:34.520407 #45350]  INFO -- default-ubuntu-1204: [2014-02-16T18:53:34+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2014-02-16T13:53:34.520607 #45350]  INFO -- default-ubuntu-1204: 
+Chef Client failed. 0 resources updated in 1.215439521 seconds[0mI, [2014-02-16T13:53:34.520802 #45350]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:34+00:00] ERROR: can't convert String into IntegerI, [2014-02-16T13:53:34.533574 #45350]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:34+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)I, [2014-02-16T13:53:34.560093 #45350]  INFO -- default-ubuntu-1204: 
+E, [2014-02-16T13:53:34.584944 #45350] ERROR -- default-ubuntu-1204: Converge failed on instance <default-ubuntu-1204>.
+E, [2014-02-16T13:53:34.585111 #45350] ERROR -- default-ubuntu-1204: ------Exception-------
+E, [2014-02-16T13:53:34.585154 #45350] ERROR -- default-ubuntu-1204: Class: Kitchen::ActionFailed
+E, [2014-02-16T13:53:34.585199 #45350] ERROR -- default-ubuntu-1204: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2014-02-16T13:53:34.585232 #45350] ERROR -- default-ubuntu-1204: ---Nested Exception---
+E, [2014-02-16T13:53:34.585263 #45350] ERROR -- default-ubuntu-1204: Class: Kitchen::SSHFailed
+E, [2014-02-16T13:53:34.585292 #45350] ERROR -- default-ubuntu-1204: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2014-02-16T13:53:34.585328 #45350] ERROR -- default-ubuntu-1204: ------Backtrace-------
+E, [2014-02-16T13:53:34.585358 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:112:in `rescue in run_remote'
+E, [2014-02-16T13:53:34.585408 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:108:in `run_remote'
+E, [2014-02-16T13:53:34.585439 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:48:in `block in converge'
+E, [2014-02-16T13:53:34.585469 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2014-02-16T13:53:34.585498 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2014-02-16T13:53:34.585527 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2014-02-16T13:53:34.585637 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/kitchen-vagrant-0.14.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2014-02-16T13:53:34.585672 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-02-16T13:53:34.585702 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-02-16T13:53:34.585732 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2014-02-16T13:53:34.585761 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-02-16T13:53:34.585790 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-02-16T13:53:34.585820 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2014-02-16T13:53:34.585849 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-02-16T13:53:34.586210 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-02-16T13:53:34.586245 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2014-02-16T13:53:34.586275 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-02-16T13:53:34.586351 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-02-16T13:53:34.586383 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-02-16T13:53:34.586413 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:119:in `converge'
+E, [2014-02-16T13:53:34.586442 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-02-16T13:53:34.586472 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-02-16T13:53:34.586501 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `call'
+E, [2014-02-16T13:53:34.586534 #45350] ERROR -- default-ubuntu-1204: /Users/dcollins/.rvm/gems/ruby-1.9.3-p484@github_users_cookbook/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `block in create_with_logging_context'
+E, [2014-02-16T13:53:34.586565 #45350] ERROR -- default-ubuntu-1204: ----------------------
+I, [2014-02-16T13:53:48.893717 #45377]  INFO -- default-ubuntu-1204: -----> Converging <default-ubuntu-1204>...
+I, [2014-02-16T13:53:48.895477 #45377]  INFO -- default-ubuntu-1204: Preparing files for transfer
+I, [2014-02-16T13:53:48.904420 #45377]  INFO -- default-ubuntu-1204: Resolving cookbook dependencies with Berkshelf 2.0.14...
+I, [2014-02-16T13:53:49.622026 #45377]  INFO -- default-ubuntu-1204: Removing non-cookbook files before transfer
+I, [2014-02-16T13:53:50.415864 #45377]  INFO -- default-ubuntu-1204: Transfering files to <default-ubuntu-1204>
+[2014-02-16T18:53:51+00:00] INFO: Forking chef instance to converge...I, [2014-02-16T13:53:51.220214 #45377]  INFO -- default-ubuntu-1204: 
+Starting Chef Client, version 11.10.0[0mI, [2014-02-16T13:53:51.260941 #45377]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:51+00:00] INFO: *** Chef 11.10.0 ***I, [2014-02-16T13:53:51.261198 #45377]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:51+00:00] INFO: Chef-client pid: 5641I, [2014-02-16T13:53:51.261436 #45377]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:51+00:00] INFO: Setting the run_list to ["github_users::default"] from JSONI, [2014-02-16T13:53:51.495850 #45377]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:51+00:00] INFO: Run List is [recipe[github_users::default]]I, [2014-02-16T13:53:51.499178 #45377]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:51+00:00] INFO: Run List expands to [github_users::default]I, [2014-02-16T13:53:51.499456 #45377]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:51+00:00] INFO: Starting Chef Run for default-ubuntu-1204I, [2014-02-16T13:53:51.499665 #45377]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:51+00:00] INFO: Running start handlersI, [2014-02-16T13:53:51.499993 #45377]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:51+00:00] INFO: Start handlers complete.I, [2014-02-16T13:53:51.500311 #45377]  INFO -- default-ubuntu-1204: 
+Compiling Cookbooks...[0mI, [2014-02-16T13:53:51.504484 #45377]  INFO -- default-ubuntu-1204: 
+Converging 7 resources[0mI, [2014-02-16T13:53:52.042857 #45377]  INFO -- default-ubuntu-1204: 
+Recipe: github_users::default[0mI, [2014-02-16T13:53:52.043379 #45377]  INFO -- default-ubuntu-1204: 
+  * log[Creating group github] action write[0m[2014-02-16T18:53:52+00:00] INFO: Processing log[Creating group github] action write (github_users::default line 14)I, [2014-02-16T13:53:52.044207 #45377]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:52+00:00] INFO: Creating group githubI, [2014-02-16T13:53:52.045069 #45377]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:53:52.045396 #45377]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:53:52.045754 #45377]  INFO -- default-ubuntu-1204: 
+  * group[github] action create[0m[2014-02-16T18:53:52+00:00] INFO: Processing group[github] action create (github_users::default line 16)I, [2014-02-16T13:53:52.046278 #45377]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T13:53:52.046998 #45377]  INFO -- default-ubuntu-1204: 
+  * log[Creating users ["dustinmm80"]] action write[0m[2014-02-16T18:53:52+00:00] INFO: Processing log[Creating users ["dustinmm80"]] action write (github_users::default line 21)I, [2014-02-16T13:53:52.047642 #45377]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:52+00:00] INFO: Creating users ["dustinmm80"]I, [2014-02-16T13:53:52.048073 #45377]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:53:52.048205 #45377]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:53:52.048465 #45377]  INFO -- default-ubuntu-1204: 
+  * user[dustinmm80] action create[0m[2014-02-16T18:53:52+00:00] INFO: Processing user[dustinmm80] action create (github_users::default line 28)I, [2014-02-16T13:53:52.049102 #45377]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T13:53:52.049839 #45377]  INFO -- default-ubuntu-1204: 
+  * directory[/home/dustinmm80/.ssh] action create[0m[2014-02-16T18:53:52+00:00] INFO: Processing directory[/home/dustinmm80/.ssh] action create (github_users::default line 39)I, [2014-02-16T13:53:52.050454 #45377]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T13:53:52.051811 #45377]  INFO -- default-ubuntu-1204: 
+  * template[/home/dustinmm80/.ssh/authorized_keys] action create[0m[2014-02-16T18:53:52+00:00] INFO: Processing template[/home/dustinmm80/.ssh/authorized_keys] action create (github_users::default line 46)I, [2014-02-16T13:53:52.065203 #45377]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T13:53:52.065441 #45377]  INFO -- default-ubuntu-1204: 
+  * sudo[github] action install[0m[2014-02-16T18:53:52+00:00] INFO: Processing sudo[github] action install (github_users::default line 59)I, [2014-02-16T13:53:52.065735 #45377]  INFO -- default-ubuntu-1204: 
+Recipe: github_users::none[0mI, [2014-02-16T13:53:52.126000 #45377]  INFO -- default-ubuntu-1204: 
+  * template[/etc/sudoers.d/github] action create[0m[2014-02-16T18:53:52+00:00] INFO: Processing template[/etc/sudoers.d/github] action create (github_users::none line 80)I, [2014-02-16T13:53:52.127129 #45377]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:52+00:00] INFO: template[/etc/sudoers.d/github] created file /etc/sudoers.d/githubI, [2014-02-16T13:53:52.128698 #45377]  INFO -- default-ubuntu-1204: 
+[32mI, [2014-02-16T13:53:52.129065 #45377]  INFO -- default-ubuntu-1204: 
+    - create new file /etc/sudoers.d/github[0m[2014-02-16T18:53:52+00:00] INFO: template[/etc/sudoers.d/github] updated file contents /etc/sudoers.d/githubI, [2014-02-16T13:53:52.131908 #45377]  INFO -- default-ubuntu-1204: 
+[32mI, [2014-02-16T13:53:52.132416 #45377]  INFO -- default-ubuntu-1204: 
+    - update content in file /etc/sudoers.d/github from none to 971340[0m[37mI, [2014-02-16T13:53:52.133032 #45377]  INFO -- default-ubuntu-1204: 
+        --- /etc/sudoers.d/github	2014-02-16 18:53:52.099651233 +0000[0m[37mI, [2014-02-16T13:53:52.133982 #45377]  INFO -- default-ubuntu-1204: 
+        +++ /tmp/chef-rendered-template20140216-5641-14fupdy	2014-02-16 18:53:52.103651233 +0000[0m[37mI, [2014-02-16T13:53:52.134974 #45377]  INFO -- default-ubuntu-1204: 
+        @@ -1 +1,5 @@[0m[37mI, [2014-02-16T13:53:52.135548 #45377]  INFO -- default-ubuntu-1204: 
+        +# This file is managed by Chef.[0m[37mI, [2014-02-16T13:53:52.136087 #45377]  INFO -- default-ubuntu-1204: 
+        +# Do NOT modify this file directly.[0m[37mI, [2014-02-16T13:53:52.136533 #45377]  INFO -- default-ubuntu-1204: 
+        +[0m[37mI, [2014-02-16T13:53:52.137026 #45377]  INFO -- default-ubuntu-1204: 
+        +%github  ALL=(ALL) NOPASSWD:ALL[0m[2014-02-16T18:53:52+00:00] INFO: template[/etc/sudoers.d/github] owner changed to 0I, [2014-02-16T13:53:52.137703 #45377]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:52+00:00] INFO: template[/etc/sudoers.d/github] group changed to 0I, [2014-02-16T13:53:52.138113 #45377]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:52+00:00] INFO: template[/etc/sudoers.d/github] mode changed to 440I, [2014-02-16T13:53:52.138510 #45377]  INFO -- default-ubuntu-1204: 
+[32mI, [2014-02-16T13:53:52.138885 #45377]  INFO -- default-ubuntu-1204: 
+    - change mode from '' to '0440'[0m[32mI, [2014-02-16T13:53:52.139427 #45377]  INFO -- default-ubuntu-1204: 
+    - change owner from '' to 'root'[0m[32mI, [2014-02-16T13:53:52.139853 #45377]  INFO -- default-ubuntu-1204: 
+    - change group from '' to 'root'[0mI, [2014-02-16T13:53:52.140230 #45377]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:53:52.140631 #45377]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:53:52.140818 #45377]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:53:52.141202 #45377]  INFO -- default-ubuntu-1204: 
+  * template[/etc/sudoers.d/github] action nothing[0m[2014-02-16T18:53:52+00:00] INFO: Processing template[/etc/sudoers.d/github] action nothing (github_users::none line 80)I, [2014-02-16T13:53:52.141692 #45377]  INFO -- default-ubuntu-1204: 
+ (skipped due to action :nothing)[0mI, [2014-02-16T13:53:52.141928 #45377]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:52+00:00] INFO: Chef Run complete in 0.642348159 secondsI, [2014-02-16T13:53:52.142201 #45377]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:53:52.142519 #45377]  INFO -- default-ubuntu-1204: 
+Running handlers:[0mI, [2014-02-16T13:53:52.142852 #45377]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:52+00:00] INFO: Running report handlersI, [2014-02-16T13:53:52.143248 #45377]  INFO -- default-ubuntu-1204: 
+Running handlers completeI, [2014-02-16T13:53:52.143667 #45377]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:53:52.144012 #45377]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:53:52+00:00] INFO: Report handlers completeI, [2014-02-16T13:53:52.144375 #45377]  INFO -- default-ubuntu-1204: 
+Chef Client finished, 4/8 resources updated in 0.924615133 seconds[0mI, [2014-02-16T13:53:52.144716 #45377]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:53:52.209124 #45377]  INFO -- default-ubuntu-1204: Finished converging <default-ubuntu-1204> (0m3.31s).
+I, [2014-02-16T13:54:03.301792 #45397]  INFO -- default-ubuntu-1204: -----> Converging <default-ubuntu-1204>...
+I, [2014-02-16T13:54:03.304317 #45397]  INFO -- default-ubuntu-1204: Preparing files for transfer
+I, [2014-02-16T13:54:03.315519 #45397]  INFO -- default-ubuntu-1204: Resolving cookbook dependencies with Berkshelf 2.0.14...
+I, [2014-02-16T13:54:04.005854 #45397]  INFO -- default-ubuntu-1204: Removing non-cookbook files before transfer
+I, [2014-02-16T13:54:04.797953 #45397]  INFO -- default-ubuntu-1204: Transfering files to <default-ubuntu-1204>
+[2014-02-16T18:54:05+00:00] INFO: Forking chef instance to converge...I, [2014-02-16T13:54:05.637857 #45397]  INFO -- default-ubuntu-1204: 
+Starting Chef Client, version 11.10.0[0mI, [2014-02-16T13:54:05.678950 #45397]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:54:05+00:00] INFO: *** Chef 11.10.0 ***I, [2014-02-16T13:54:05.679180 #45397]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:54:05+00:00] INFO: Chef-client pid: 5805I, [2014-02-16T13:54:05.679495 #45397]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:54:05+00:00] INFO: Setting the run_list to ["github_users::default"] from JSONI, [2014-02-16T13:54:05.923287 #45397]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:54:05+00:00] INFO: Run List is [recipe[github_users::default]]I, [2014-02-16T13:54:05.927554 #45397]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:54:05+00:00] INFO: Run List expands to [github_users::default]I, [2014-02-16T13:54:05.927857 #45397]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:54:05+00:00] INFO: Starting Chef Run for default-ubuntu-1204I, [2014-02-16T13:54:05.928159 #45397]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:54:05+00:00] INFO: Running start handlersI, [2014-02-16T13:54:05.928591 #45397]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:54:05+00:00] INFO: Start handlers complete.I, [2014-02-16T13:54:05.928920 #45397]  INFO -- default-ubuntu-1204: 
+Compiling Cookbooks...[0mI, [2014-02-16T13:54:05.933038 #45397]  INFO -- default-ubuntu-1204: 
+Converging 7 resources[0mI, [2014-02-16T13:54:06.408303 #45397]  INFO -- default-ubuntu-1204: 
+Recipe: github_users::default[0mI, [2014-02-16T13:54:06.408821 #45397]  INFO -- default-ubuntu-1204: 
+  * log[Creating group github] action write[0m[2014-02-16T18:54:06+00:00] INFO: Processing log[Creating group github] action write (github_users::default line 14)I, [2014-02-16T13:54:06.409516 #45397]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:54:06+00:00] INFO: Creating group githubI, [2014-02-16T13:54:06.410581 #45397]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:54:06.410921 #45397]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:54:06.411255 #45397]  INFO -- default-ubuntu-1204: 
+  * group[github] action create[0m[2014-02-16T18:54:06+00:00] INFO: Processing group[github] action create (github_users::default line 16)I, [2014-02-16T13:54:06.411878 #45397]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T13:54:06.412846 #45397]  INFO -- default-ubuntu-1204: 
+  * log[Creating users ["dustinmm80"]] action write[0m[2014-02-16T18:54:06+00:00] INFO: Processing log[Creating users ["dustinmm80"]] action write (github_users::default line 21)I, [2014-02-16T13:54:06.413401 #45397]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:54:06+00:00] INFO: Creating users ["dustinmm80"]I, [2014-02-16T13:54:06.413885 #45397]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:54:06.414089 #45397]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:54:06.414466 #45397]  INFO -- default-ubuntu-1204: 
+  * user[dustinmm80] action create[0m[2014-02-16T18:54:06+00:00] INFO: Processing user[dustinmm80] action create (github_users::default line 28)I, [2014-02-16T13:54:06.414916 #45397]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T13:54:06.415753 #45397]  INFO -- default-ubuntu-1204: 
+  * directory[/home/dustinmm80/.ssh] action create[0m[2014-02-16T18:54:06+00:00] INFO: Processing directory[/home/dustinmm80/.ssh] action create (github_users::default line 39)I, [2014-02-16T13:54:06.416301 #45397]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T13:54:06.417584 #45397]  INFO -- default-ubuntu-1204: 
+  * template[/home/dustinmm80/.ssh/authorized_keys] action create[0m[2014-02-16T18:54:06+00:00] INFO: Processing template[/home/dustinmm80/.ssh/authorized_keys] action create (github_users::default line 46)I, [2014-02-16T13:54:06.418104 #45397]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T13:54:06.421964 #45397]  INFO -- default-ubuntu-1204: 
+  * sudo[github] action install[0m[2014-02-16T18:54:06+00:00] INFO: Processing sudo[github] action install (github_users::default line 59)I, [2014-02-16T13:54:06.422432 #45397]  INFO -- default-ubuntu-1204: 
+Recipe: github_users::none[0mI, [2014-02-16T13:54:06.484104 #45397]  INFO -- default-ubuntu-1204: 
+  * template[/etc/sudoers.d/github] action create[0m[2014-02-16T18:54:06+00:00] INFO: Processing template[/etc/sudoers.d/github] action create (github_users::none line 80)I, [2014-02-16T13:54:06.484902 #45397]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T13:54:06.487978 #45397]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T13:54:06.488255 #45397]  INFO -- default-ubuntu-1204: 
+  * template[/etc/sudoers.d/github] action nothing[0m[2014-02-16T18:54:06+00:00] INFO: Processing template[/etc/sudoers.d/github] action nothing (github_users::none line 80)I, [2014-02-16T13:54:06.489109 #45397]  INFO -- default-ubuntu-1204: 
+ (skipped due to action :nothing)[0mI, [2014-02-16T13:54:06.489498 #45397]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:54:06+00:00] INFO: Chef Run complete in 0.561515685 secondsI, [2014-02-16T13:54:06.489955 #45397]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:54:06.490204 #45397]  INFO -- default-ubuntu-1204: 
+Running handlers:[0mI, [2014-02-16T13:54:06.490597 #45397]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:54:06+00:00] INFO: Running report handlersI, [2014-02-16T13:54:06.490969 #45397]  INFO -- default-ubuntu-1204: 
+Running handlers completeI, [2014-02-16T13:54:06.491352 #45397]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T13:54:06.491771 #45397]  INFO -- default-ubuntu-1204: 
+[2014-02-16T18:54:06+00:00] INFO: Report handlers completeI, [2014-02-16T13:54:06.492154 #45397]  INFO -- default-ubuntu-1204: 
+Chef Client finished, 2/8 resources updated in 0.854718357 seconds[0mI, [2014-02-16T13:54:06.492513 #45397]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T13:54:06.559872 #45397]  INFO -- default-ubuntu-1204: Finished converging <default-ubuntu-1204> (0m3.25s).
+D, [2014-02-16T13:56:49.641123 #45514] DEBUG -- default-ubuntu-1204: Berksfile found at /Users/dcollins/git/github_users_cookbook/Berksfile, loading Berkshelf
+D, [2014-02-16T13:56:50.661038 #45514] DEBUG -- default-ubuntu-1204: Berkshelf 2.0.14 library loaded
+D, [2014-02-16T13:56:50.661696 #45514] DEBUG -- default-ubuntu-1204: Login command: ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o IdentitiesOnly=yes -o LogLevel=VERBOSE -i /Users/dcollins/.vagrant.d/insecure_private_key -p 2222 vagrant@127.0.0.1 (Options: {})
+I, [2014-02-16T14:00:47.864866 #45674]  INFO -- default-ubuntu-1204: -----> Converging <default-ubuntu-1204>...
+I, [2014-02-16T14:00:47.867076 #45674]  INFO -- default-ubuntu-1204: Preparing files for transfer
+I, [2014-02-16T14:00:47.878795 #45674]  INFO -- default-ubuntu-1204: Resolving cookbook dependencies with Berkshelf 2.0.14...
+I, [2014-02-16T14:00:48.592508 #45674]  INFO -- default-ubuntu-1204: Removing non-cookbook files before transfer
+I, [2014-02-16T14:00:49.397740 #45674]  INFO -- default-ubuntu-1204: Transfering files to <default-ubuntu-1204>
+[2014-02-16T19:00:50+00:00] INFO: Forking chef instance to converge...I, [2014-02-16T14:00:50.230049 #45674]  INFO -- default-ubuntu-1204: 
+Starting Chef Client, version 11.10.0[0mI, [2014-02-16T14:00:50.274164 #45674]  INFO -- default-ubuntu-1204: 
+[2014-02-16T19:00:50+00:00] INFO: *** Chef 11.10.0 ***I, [2014-02-16T14:00:50.274602 #45674]  INFO -- default-ubuntu-1204: 
+[2014-02-16T19:00:50+00:00] INFO: Chef-client pid: 6393I, [2014-02-16T14:00:50.274927 #45674]  INFO -- default-ubuntu-1204: 
+[2014-02-16T19:00:50+00:00] INFO: Setting the run_list to ["github_users::default"] from JSONI, [2014-02-16T14:00:50.520511 #45674]  INFO -- default-ubuntu-1204: 
+[2014-02-16T19:00:50+00:00] INFO: Run List is [recipe[github_users::default]]I, [2014-02-16T14:00:50.524105 #45674]  INFO -- default-ubuntu-1204: 
+[2014-02-16T19:00:50+00:00] INFO: Run List expands to [github_users::default]I, [2014-02-16T14:00:50.524475 #45674]  INFO -- default-ubuntu-1204: 
+[2014-02-16T19:00:50+00:00] INFO: Starting Chef Run for default-ubuntu-1204I, [2014-02-16T14:00:50.524843 #45674]  INFO -- default-ubuntu-1204: 
+[2014-02-16T19:00:50+00:00] INFO: Running start handlersI, [2014-02-16T14:00:50.525180 #45674]  INFO -- default-ubuntu-1204: 
+[2014-02-16T19:00:50+00:00] INFO: Start handlers complete.I, [2014-02-16T14:00:50.525493 #45674]  INFO -- default-ubuntu-1204: 
+Compiling Cookbooks...[0mI, [2014-02-16T14:00:50.529283 #45674]  INFO -- default-ubuntu-1204: 
+Converging 7 resources[0mI, [2014-02-16T14:00:51.030920 #45674]  INFO -- default-ubuntu-1204: 
+Recipe: github_users::default[0mI, [2014-02-16T14:00:51.031298 #45674]  INFO -- default-ubuntu-1204: 
+  * log[Creating group github] action write[0m[2014-02-16T19:00:50+00:00] INFO: Processing log[Creating group github] action write (github_users::default line 14)I, [2014-02-16T14:00:51.031762 #45674]  INFO -- default-ubuntu-1204: 
+[2014-02-16T19:00:50+00:00] INFO: Creating group githubI, [2014-02-16T14:00:51.032687 #45674]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T14:00:51.032910 #45674]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T14:00:51.033274 #45674]  INFO -- default-ubuntu-1204: 
+  * group[github] action create[0m[2014-02-16T19:00:50+00:00] INFO: Processing group[github] action create (github_users::default line 16)I, [2014-02-16T14:00:51.033707 #45674]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T14:00:51.034558 #45674]  INFO -- default-ubuntu-1204: 
+  * log[Creating users ["dustinmm80"]] action write[0m[2014-02-16T19:00:50+00:00] INFO: Processing log[Creating users ["dustinmm80"]] action write (github_users::default line 21)I, [2014-02-16T14:00:51.035360 #45674]  INFO -- default-ubuntu-1204: 
+[2014-02-16T19:00:50+00:00] INFO: Creating users ["dustinmm80"]I, [2014-02-16T14:00:51.036764 #45674]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T14:00:51.036934 #45674]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T14:00:51.037193 #45674]  INFO -- default-ubuntu-1204: 
+  * user[dustinmm80] action create[0m[2014-02-16T19:00:50+00:00] INFO: Processing user[dustinmm80] action create (github_users::default line 28)I, [2014-02-16T14:00:51.037788 #45674]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T14:00:51.038527 #45674]  INFO -- default-ubuntu-1204: 
+  * directory[/home/dustinmm80/.ssh] action create[0m[2014-02-16T19:00:50+00:00] INFO: Processing directory[/home/dustinmm80/.ssh] action create (github_users::default line 39)I, [2014-02-16T14:00:51.039092 #45674]  INFO -- default-ubuntu-1204: 
+[2014-02-16T19:00:50+00:00] INFO: directory[/home/dustinmm80/.ssh] mode changed to 700I, [2014-02-16T14:00:51.040748 #45674]  INFO -- default-ubuntu-1204: 
+[32mI, [2014-02-16T14:00:51.041133 #45674]  INFO -- default-ubuntu-1204: 
+    - change mode from '0644' to '0700'[0mI, [2014-02-16T14:00:51.041810 #45674]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T14:00:51.042220 #45674]  INFO -- default-ubuntu-1204: 
+  * template[/home/dustinmm80/.ssh/authorized_keys] action create[0m[2014-02-16T19:00:50+00:00] INFO: Processing template[/home/dustinmm80/.ssh/authorized_keys] action create (github_users::default line 46)I, [2014-02-16T14:00:51.042709 #45674]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T14:00:51.046503 #45674]  INFO -- default-ubuntu-1204: 
+  * sudo[github] action install[0m[2014-02-16T19:00:50+00:00] INFO: Processing sudo[github] action install (github_users::default line 59)I, [2014-02-16T14:00:51.046999 #45674]  INFO -- default-ubuntu-1204: 
+Recipe: github_users::none[0mI, [2014-02-16T14:00:51.113597 #45674]  INFO -- default-ubuntu-1204: 
+  * template[/etc/sudoers.d/github] action create[0m[2014-02-16T19:00:51+00:00] INFO: Processing template[/etc/sudoers.d/github] action create (github_users::none line 80)I, [2014-02-16T14:00:51.114183 #45674]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T14:00:51.116786 #45674]  INFO -- default-ubuntu-1204: 
+ (up to date)[0mI, [2014-02-16T14:00:51.117019 #45674]  INFO -- default-ubuntu-1204: 
+  * template[/etc/sudoers.d/github] action nothing[0m[2014-02-16T19:00:51+00:00] INFO: Processing template[/etc/sudoers.d/github] action nothing (github_users::none line 80)I, [2014-02-16T14:00:51.117510 #45674]  INFO -- default-ubuntu-1204: 
+ (skipped due to action :nothing)[0mI, [2014-02-16T14:00:51.117804 #45674]  INFO -- default-ubuntu-1204: 
+[2014-02-16T19:00:51+00:00] INFO: Chef Run complete in 0.593810571 secondsI, [2014-02-16T14:00:51.118248 #45674]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T14:00:51.118459 #45674]  INFO -- default-ubuntu-1204: 
+Running handlers:[0mI, [2014-02-16T14:00:51.118806 #45674]  INFO -- default-ubuntu-1204: 
+[2014-02-16T19:00:51+00:00] INFO: Running report handlersI, [2014-02-16T14:00:51.119141 #45674]  INFO -- default-ubuntu-1204: 
+Running handlers completeI, [2014-02-16T14:00:51.119490 #45674]  INFO -- default-ubuntu-1204: 
+[0mI, [2014-02-16T14:00:51.119795 #45674]  INFO -- default-ubuntu-1204: 
+[2014-02-16T19:00:51+00:00] INFO: Report handlers completeI, [2014-02-16T14:00:51.120137 #45674]  INFO -- default-ubuntu-1204: 
+Chef Client finished, 3/8 resources updated in 0.890440024 seconds[0mI, [2014-02-16T14:00:51.120417 #45674]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T14:00:51.192152 #45674]  INFO -- default-ubuntu-1204: Finished converging <default-ubuntu-1204> (0m3.32s).
+I, [2014-02-16T14:06:54.453812 #45911]  INFO -- default-ubuntu-1204: -----> Setting up <default-ubuntu-1204>...
+Fetching: thor-0.18.1.gemFetching: thor-0.18.1.gem ( 12%)Fetching: thor-0.18.1.gem ( 14%)Fetching: thor-0.18.1.gem ( 17%)Fetching: thor-0.18.1.gem ( 21%)Fetching: thor-0.18.1.gem ( 29%)Fetching: thor-0.18.1.gem ( 33%)Fetching: thor-0.18.1.gem ( 35%)Fetching: thor-0.18.1.gem ( 40%)Fetching: thor-0.18.1.gem ( 43%)Fetching: thor-0.18.1.gem ( 50%)Fetching: thor-0.18.1.gem ( 70%)Fetching: thor-0.18.1.gem ( 73%)Fetching: thor-0.18.1.gem ( 76%)Fetching: thor-0.18.1.gem ( 88%)Fetching: thor-0.18.1.gem ( 90%)Fetching: thor-0.18.1.gem (100%)Fetching: thor-0.18.1.gem (100%)I, [2014-02-16T14:06:56.833204 #45911]  INFO -- default-ubuntu-1204: 
+Fetching: busser-0.6.0.gemFetching: busser-0.6.0.gem ( 11%)Fetching: busser-0.6.0.gem ( 50%)Fetching: busser-0.6.0.gem ( 96%)Fetching: busser-0.6.0.gem (100%)Fetching: busser-0.6.0.gem (100%)I, [2014-02-16T14:06:56.971353 #45911]  INFO -- default-ubuntu-1204: 
+Successfully installed thor-0.18.1I, [2014-02-16T14:06:56.997355 #45911]  INFO -- default-ubuntu-1204: 
+Successfully installed busser-0.6.0I, [2014-02-16T14:06:56.997608 #45911]  INFO -- default-ubuntu-1204: 
+2 gems installedI, [2014-02-16T14:06:56.997865 #45911]  INFO -- default-ubuntu-1204: 
+-----> Setting up BusserI, [2014-02-16T14:06:57.142791 #45911]  INFO -- default-ubuntu-1204: 
+       Creating BUSSER_ROOT in /tmp/busserI, [2014-02-16T14:06:57.143164 #45911]  INFO -- default-ubuntu-1204: 
+       Creating busser binstubI, [2014-02-16T14:06:57.143453 #45911]  INFO -- default-ubuntu-1204: 
+       Plugin serverspec installed (version 0.2.6)I, [2014-02-16T14:06:59.993956 #45911]  INFO -- default-ubuntu-1204: 
+-----> Running postinstall for serverspec pluginI, [2014-02-16T14:06:59.996653 #45911]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T14:07:11.117915 #45911]  INFO -- default-ubuntu-1204: Finished setting up <default-ubuntu-1204> (0m16.66s).
+I, [2014-02-16T14:07:11.118153 #45911]  INFO -- default-ubuntu-1204: -----> Verifying <default-ubuntu-1204>...
+       Suite path directory /tmp/busser/suites does not exist, skipping.I, [2014-02-16T14:07:11.291473 #45911]  INFO -- default-ubuntu-1204: 
+Uploading /tmp/busser/suites/serverspec/default_spec.rb (mode=0644)I, [2014-02-16T14:07:11.436140 #45911]  INFO -- default-ubuntu-1204: 
+Uploading /tmp/busser/suites/serverspec/spec_helper.rb (mode=0644)I, [2014-02-16T14:07:11.859784 #45911]  INFO -- default-ubuntu-1204: 
+-----> Running serverspec test suiteI, [2014-02-16T14:07:12.278493 #45911]  INFO -- default-ubuntu-1204: 
+/opt/chef/embedded/bin/ruby -I/tmp/busser/suites/serverspec -S /opt/chef/embedded/bin/rspec /tmp/busser/suites/serverspec/default_spec.rb --color --format documentationI, [2014-02-16T14:07:12.346852 #45911]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T14:07:12.545421 #45911]  INFO -- default-ubuntu-1204: 
+Group "github"I, [2014-02-16T14:07:12.545736 #45911]  INFO -- default-ubuntu-1204: 
+[32m  should exist [][0mI, [2014-02-16T14:07:12.550592 #45911]  INFO -- default-ubuntu-1204: 
+[32m  should have gid 2157[0mI, [2014-02-16T14:07:12.555838 #45911]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T14:07:12.556061 #45911]  INFO -- default-ubuntu-1204: 
+User "dustinmm80"I, [2014-02-16T14:07:12.556387 #45911]  INFO -- default-ubuntu-1204: 
+[32m  should exist [][0mI, [2014-02-16T14:07:12.560221 #45911]  INFO -- default-ubuntu-1204: 
+[32m  should belong to group "github"[0mI, [2014-02-16T14:07:12.566011 #45911]  INFO -- default-ubuntu-1204: 
+[32m  should have home directory "/home/dustinmm80"[0mI, [2014-02-16T14:07:12.570115 #45911]  INFO -- default-ubuntu-1204: 
+[32m  should have login shell "/bin/bash"[0mI, [2014-02-16T14:07:12.574253 #45911]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T14:07:12.574479 #45911]  INFO -- default-ubuntu-1204: 
+Finished in 0.02932 secondsI, [2014-02-16T14:07:12.574847 #45911]  INFO -- default-ubuntu-1204: 
+[32m6 examples, 0 failures[0mI, [2014-02-16T14:07:12.575182 #45911]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T14:07:12.593122 #45911]  INFO -- default-ubuntu-1204: Finished verifying <default-ubuntu-1204> (0m1.47s).
+I, [2014-02-16T14:07:57.520316 #45961]  INFO -- default-ubuntu-1204: -----> Verifying <default-ubuntu-1204>...
+       Removing /tmp/busser/suites/serverspecI, [2014-02-16T14:07:57.690340 #45961]  INFO -- default-ubuntu-1204: 
+Uploading /tmp/busser/suites/serverspec/default_spec.rb (mode=0644)I, [2014-02-16T14:07:57.835805 #45961]  INFO -- default-ubuntu-1204: 
+Uploading /tmp/busser/suites/serverspec/spec_helper.rb (mode=0644)I, [2014-02-16T14:07:58.245866 #45961]  INFO -- default-ubuntu-1204: 
+-----> Running serverspec test suiteI, [2014-02-16T14:07:58.675912 #45961]  INFO -- default-ubuntu-1204: 
+/opt/chef/embedded/bin/ruby -I/tmp/busser/suites/serverspec -S /opt/chef/embedded/bin/rspec /tmp/busser/suites/serverspec/default_spec.rb --color --format documentationI, [2014-02-16T14:07:58.743264 #45961]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T14:07:58.940334 #45961]  INFO -- default-ubuntu-1204: 
+Group "github"I, [2014-02-16T14:07:58.940838 #45961]  INFO -- default-ubuntu-1204: 
+[32m  should exist [][0mI, [2014-02-16T14:07:58.945264 #45961]  INFO -- default-ubuntu-1204: 
+[32m  should have gid 2157[0mI, [2014-02-16T14:07:58.952558 #45961]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T14:07:58.952848 #45961]  INFO -- default-ubuntu-1204: 
+User "dustinmm80"I, [2014-02-16T14:07:58.953220 #45961]  INFO -- default-ubuntu-1204: 
+[32m  should exist [][0mI, [2014-02-16T14:07:58.956651 #45961]  INFO -- default-ubuntu-1204: 
+[32m  should belong to group "github"[0mI, [2014-02-16T14:07:58.961504 #45961]  INFO -- default-ubuntu-1204: 
+[32m  should have home directory "/home/dustinmm80"[0mI, [2014-02-16T14:07:58.965424 #45961]  INFO -- default-ubuntu-1204: 
+[32m  should have login shell "/bin/bash"[0mI, [2014-02-16T14:07:58.969506 #45961]  INFO -- default-ubuntu-1204: 
+[32m  should have authorized key "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8rjKzMC2dxp+Vl3JUbANG3W1rOYm6qangu4dU1deot2mmzFsoWtv67tmd90scrCua/3Ex60St++rmmOi+Y3eTdYnmzW0/ggi4q27ioW7CSc0emU8/6/UkEk3r77nNnKCsfZeKI6cjiJQuQK7DawkGoQU/HUX5aPfIfoDI6b9jzoMxB9j7JE8g23eBX8Q/g8oPMVMXhMiHmNt0PlHUOtB1Cq1uCWaTtfB5IvxKH+3TT0ODn5b4VrVRe8qx7Z7ugGJ6CqBD6CZyjzFhtUx+WkN1BftlMwz5XkQvLppG86gW5tLUmUVyqM+ekcT4DOQh+ETG/epfGZTgNL4tW2ZNNFOh"[0mI, [2014-02-16T14:07:58.974506 #45961]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T14:07:58.974763 #45961]  INFO -- default-ubuntu-1204: 
+Finished in 0.03407 secondsI, [2014-02-16T14:07:58.975139 #45961]  INFO -- default-ubuntu-1204: 
+[32m7 examples, 0 failures[0mI, [2014-02-16T14:07:58.975510 #45961]  INFO -- default-ubuntu-1204: 
+I, [2014-02-16T14:07:58.996533 #45961]  INFO -- default-ubuntu-1204: Finished verifying <default-ubuntu-1204> (0m1.47s).
