@@ -1,12 +1,13 @@
 driver:
-  name: vagrant
+  name: docker
 
 provisioner:
   name: chef_solo
-  require_chef_omnibus: 11.10.0
 
 platforms:
   - name: ubuntu-12.04
+    driver_config: 
+      socket: <%= ENV['DOCKER_HOST'] %>
 
 suites:
   - name: default

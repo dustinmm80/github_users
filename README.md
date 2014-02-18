@@ -43,6 +43,10 @@ Set one of these attributes as you need:
 
 4. Run the tests
 
+    We're using docker to run our integration tests.
+
+    You need to have the environment variable `DOCKER_HOST` set to point to your docker daemon.
+
     ```
     kitchen converge; kitchen verify
     ```
