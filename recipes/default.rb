@@ -11,14 +11,20 @@ elsif node['github_users']['users']
     usernames = node['github_users']['users']
 end
 
-log "Creating group #{node['github_users']['group_name']}"
-
 group node['github_users']['group_name'] do
     gid node['github_users']['group_id']
     action :create
 end
 
-log "Creating users #{usernames}"
+existing_group_users = node['etc']['group'][node['github_users']['group_name']]['members']
+users_to_delete = existing_group_users - usernames
+
+users_to_delete.each do |user_to_delete|
+    log "Removing stale user #{user_to_delete} from group:"
+    user user_to_delete do
+        action :remove
+    end
+end
     
 usernames.each do |username|
     public_keys = JSON.parse(
@@ -61,4 +67,9 @@ usernames.each do |username|
             nopasswd true
         end 
     end
+end
+
+group node['github_users']['group_name'] do
+    members usernames
+    action :modify
 end
