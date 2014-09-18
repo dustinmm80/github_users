@@ -16,7 +16,8 @@ group node['github_users']['group_name'] do
     action :create
 end
 
-existing_group_users = node['etc']['group'][node['github_users']['group_name']]['members']
+group_name = node['github_users']['group_name']
+existing_group_users = node['etc']['group'].fetch(group_name, {}).fetch('members', [])
 users_to_delete = existing_group_users - usernames
 
 users_to_delete.each do |user_to_delete|
@@ -25,7 +26,7 @@ users_to_delete.each do |user_to_delete|
         action :remove
     end
 end
-    
+
 usernames.each do |username|
     public_keys = JSON.parse(
         open("https://api.github.com/users/#{username}/keys").read
@@ -37,7 +38,7 @@ usernames.each do |username|
         home "/home/#{username}"
         shell "/bin/bash"
         system true
-        supports :manage_home => true 
+        supports :manage_home => true
 
         action :create
     end
